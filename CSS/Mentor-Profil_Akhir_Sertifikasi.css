@@ -1,0 +1,218 @@
+.profil-mentor{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profil-mentor .profil-mentor-res{
+    flex-direction: column;
+    width: 100%;
+    height: 900px;
+    gap: 56px;
+    background-image: url(Assets/VERIFIKASI\ MENTOR.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.profil-mentor-res .header{
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    background: linear-gradient(180deg, #00A09F 0%, #00687D 99.97%, rgba(255, 255, 255, 0.00) 99.98%, rgba(100, 197, 197, 0.61) 99.99%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.profil-mentor-res .header-kiri{
+    display: flex;
+    width: 207px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.profil-mentor-res .LOGO{
+    width: 187px;
+    height: 58px;
+    flex-shrink: 0;
+    transition: 0.4s;
+}
+
+.LOGO:hover{
+    transform: scale(1.05);
+  }
+
+.profil-mentor-res .navbar{
+    display: flex;
+    padding: 10px 50px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    row-gap: 5px;
+    flex: 1 0 0;
+    flex-wrap: wrap;
+}
+
+.profil-mentor-res .tentang-imenka-header{
+    width: 137.754px;
+    height: 35.414px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    transition: 0.4s;
+}
+
+.tentang-imenka-header:hover{
+    letter-spacing: 0.05em;
+    color: #17232b;
+    font-weight: 800;
+  }
+
+.profil-mentor-res .home-header{
+    width: 57.284px;
+    height: 35.414px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    transition: 0.4s;
+}
+
+.home-header:hover{
+    letter-spacing: 0.05em;
+    color: #17232b;
+    font-weight: 800;
+  }
+
+.profil-mentor-res .jadwal-kelas-header{
+    width: 131.617px;
+    height: 35.414px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    transition: 0.4s;
+}
+
+.jadwal-kelas-header:hover{
+    letter-spacing: 0.05em;
+    color: #17232b;
+    font-weight: 800;
+  }
+
+.profil-mentor-res .list-mentee-header{
+    width: 131.617px;
+    height: 35.414px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    transition: 0.4s;
+}
+
+.list-mentee-header:hover{
+    letter-spacing: 0.05em;
+    color: #17232b;
+    font-weight: 800;
+  }
+
+.profil-mentor-res .header-kanan{
+    display: flex;
+    width: 157px;
+    padding: 10px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+}
+
+.profil-mentor-res .search-button{
+    width: 43px;
+    height: 43px;
+    flex-shrink: 0;
+}
+
+.profil-mentor-res .profil{
+    width: 59.876px;
+    height: 54.582px;
+    flex-shrink: 0;
+    transition: 0.4s;
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+.profil:hover{
+    transform: scale(1.05);
+  }
+
+.profil-mentor-res .ucapan-terima-kasih{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: #84EA82;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.profil-mentor-res .TERIMA-KASIH-SUDAH{
+    text-align: center;
+    width: 359px;
+}
+
+.profil-mentor-res .text-wrapper{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.profil-mentor-res .span{
+    color: #000;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.profil-mentor-res .log-out{
+    display: flex;
+    padding: 10px 52px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: #006D80;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: 0.4s;
+}
+.log-out:hover{
+    background: #83cedb;
+}
+
+.profil-mentor-res .text-wrapper-9{
+    color: #000;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

@@ -1,0 +1,485 @@
+.informasi-loker-landing{
+    display: flex;
+    width: 100%;
+    padding-bottom: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+
+.informasi-loker-landing .informasi-loker-landing-res{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+.informasi-loker-landing-res .header{
+    display: flex;
+padding: 10px 20px;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.informasi-loker-landing-res .header-kiri {
+    width: 231px;
+    justify-content: space-around;
+    gap: 251px;
+    padding: 10px 50px;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .informasi-loker-landing-res .LOGO {
+    position: relative;
+    width: 187px;
+    height: 58px;
+    margin-left: -28px;
+    margin-right: -28px;
+    object-fit: cover;
+    transition: 0.4s;
+  }
+
+  .LOGO:hover{
+    transform: scale(1.05);
+  }
+  
+  .informasi-loker-landing-res .navbar {
+    display: flex;
+padding: 10px 50px;
+justify-content: space-between;
+align-items: center;
+align-content: center;
+row-gap: 5px;
+flex: 1 0 0;
+flex-wrap: wrap;
+  }
+  
+  .informasi-loker-landing-res .home-header {
+    position: relative;
+    width: 68.15px;
+    height: 46.56px;
+    color: #2F4858;
+font-family: Inknut Antiqua;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    transition: 0.4s;
+  }
+
+  .home-header:hover{
+    letter-spacing: 0.05em;
+    color: #17232b;
+    font-weight: 800;
+  }
+  
+  .informasi-loker-landing-res .tentang-imenka {
+    position: relative;
+    width: 182.07px;
+    height: 46.56px;
+    margin-top: -1px;
+    color: #2F4858;
+font-family: Inknut Antiqua;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    transition: 0.4s;
+  }
+
+  .tentang-imenka:hover{
+    letter-spacing: 0.05em;
+    color: #17232b;
+    font-weight: 800;
+  }
+  
+  .informasi-loker-landing-res .artikel-header {
+    color: #2F4858;
+font-family: Inknut Antiqua;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 93px;
+height: 46px;
+transition: 0.4s;
+  }
+
+  .artikel-header:hover{
+    letter-spacing: 0.05em;
+    color: #17232b;
+    font-weight: 800;
+  }
+  
+  .informasi-loker-landing-res .informasi-loker {
+    position: relative;
+    width: 183.09px;
+    height: 46.56px;
+    margin-top: -1px;
+    color: #2F4858;
+font-family: Inknut Antiqua;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+transition: 0.4s;
+  }
+
+  .informasi-loker-landing-res .header-kanan {
+    width: 233px;
+    justify-content: flex-end;
+    gap: 24px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .informasi-loker-landing-res .search-button {
+    position: relative;
+    width: 43px;
+    height: 43px;
+  }
+
+  
+   .informasi-loker-landing-res .overlap-group {
+    display: flex;
+    width: 128.939px;
+    padding: 5px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 11px;
+    background: #56DBA1;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: 0.4s;
+  }
+  
+  .overlap-group:hover{
+    background-color:#2ce4e7 ;
+  }
+  
+   .informasi-loker-landing-res .text-wrapper {
+    flex: 1 0 0;
+    align-self: stretch;
+    color: #000;
+    text-align: center;
+    font-family: Inknut Antiqua;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .informasi-loker-landing-res .headline{
+    display: flex;
+    height: 262px;
+    padding: 30px 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    align-self: stretch;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(0deg, rgb(255, 255, 255), rgba(0, 255, 0, 0) 20.71%),
+            linear-gradient(180deg, rgba(75, 164, 79, 0.366), rgba(0, 255, 0, 0) 100.71%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+
+  .informasi-loker-landing-res .headline-kata-atas{
+    min-width: 399px;
+    align-self: stretch;
+    color: #000;
+    text-align: center;
+    font-family: Inria Serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .informasi-loker-landing-res .headline-kata-bawah{
+    min-width: 439px;
+    align-self: stretch;
+    color: #000;
+    text-align: center;
+    font-family: Inria Serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .informasi-loker-landing-res .daftar-loker{
+    display: flex;
+    padding: 0px 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+    align-self: stretch;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(0deg, rgb(255, 255, 255), rgba(0, 255, 0, 0) 20.71%),
+            linear-gradient(180deg, rgba(229, 231, 90, 0.366), rgba(0, 255, 0, 0) 100.71%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .informasi-loker-landing-res .text-wrapper-3{
+    color: #000;
+    font-family: Inria Serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+  }
+
+  .informasi-loker-landing-res .loker-atas{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 76px;
+    align-self: stretch;
+    flex-wrap: wrap;
+  }
+
+  .informasi-loker-landing-res .loker-bawah{
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 77px;
+    align-self: stretch;
+    flex-wrap: wrap;
+  }
+
+  .informasi-loker-landing-res .img{
+    width: 264px;
+    height: 358.675px;
+    border-radius: 23px;
+    transition: 0.4s;
+    cursor: pointer;
+  }
+
+  .img:hover{
+    transform: scale(1.05);
+}
+
+  .informasi-loker-landing-res .img-2{
+    width: 275px;
+    height: 275px;
+    border-radius: 23px;
+    transition: 0.4s;
+    cursor: pointer;
+  }
+
+  .img-2:hover{
+    transform: scale(1.05);
+}
+
+  .informasi-loker-landing-res .footer{
+    display: flex;
+height: 216px;
+padding: 10px 20px;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.informasi-loker-landing-res .footer-kiri{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 41px;
+}
+
+.informasi-loker-landing-res .logo{
+    display: flex;
+padding: 10px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+}
+
+.informasi-loker-landing-res .LOGO-2{
+    width: 187px;
+height: 58px;
+}
+
+.informasi-loker-landing-res .embel{
+    display: flex;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+}
+
+.informasi-loker-landing-res .title-footer{
+    position: relative;
+    width: 240px;
+    margin-top: -1px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.informasi-loker-landing-res .footer-tengah{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 29px;
+}
+
+.informasi-loker-landing-res .menu{
+    display: flex;
+padding: 10px 0px;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+}
+
+.informasi-loker-landing-res .text-wrapper-6{
+    color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.informasi-loker-landing-res .isi-menu{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+align-self: stretch;
+}
+
+.informasi-loker-landing-res .home-footer{
+    width: 48.167px;
+height: 25px;
+color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.informasi-loker-landing-res .tentang-kami-footer{
+    width: 112.39px;
+height: 25px;
+color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.informasi-loker-landing-res .artikel-footer{
+    width: 56.195px;
+height: 25px;
+color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}mentor-mheader
+
+.informasi-loker-landing-res .informasi-loker-footer{
+    width: 122.425px;
+height: 25px;
+color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.informasi-loker-landing-res .footer-kanan{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+gap: 32px;
+}
+
+.informasi-loker-landing-res .follow{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+align-self: stretch;
+}
+
+.informasi-loker-landing-res .text-wrapper-6{
+    color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.informasi-loker-landing-res .sosmed{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 2px;
+align-self: stretch;
+}
+
+.informasi-loker-landing-res .text-wrapper-7{
+    width: 83px;
+height: 22px;
+color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.informasi-loker-landing-res .text-wrapper-8{
+    width: 60px;
+    height: 22px;
+color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.informasi-loker-landing-res .text-wrapper-9{
+    width: 83px;
+    height: 22px;
+color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

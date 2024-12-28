@@ -1,0 +1,717 @@
+.beranda-mentee{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
+}
+
+.beranda-mentee .beranda-mentee-res{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 82px;
+}
+
+.beranda-mentee-res .header{
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    background: #39B9A5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.beranda-mentee-res .header-kiri{
+    display: flex;
+    width: 231px;
+    padding: 10px 50px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.beranda-mentee-res .LOGO{
+    width: 187px;
+    height: 58px;
+    flex-shrink: 0;
+    transition: 0.4s;
+}
+
+.LOGO:hover{
+    transform: scale(1.05);
+  }
+
+.beranda-mentee-res .navbar{
+    display: flex;
+    padding: 30px 10px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    row-gap: 5px;
+    flex: 1 0 0;
+    flex-wrap: wrap;
+}
+
+.beranda-mentee-res .text-wrapper{
+    color: #2F4858;
+    font-family: Inknut Antiqua;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: 0.4s;
+}
+
+.text-wrapper:hover{
+    letter-spacing: 0.05em;
+    color: #17232b;
+    font-weight: 800;
+  }
+
+.beranda-mentee-res .Panduan_Karier{
+    color: #2F4858;
+    font-family: Inknut Antiqua;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.05em;
+}
+
+.beranda-mentee-res .header-kanan{
+    display: flex;
+    padding: 10px 50px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+}
+
+.beranda-mentee-res .search-button{
+    width: 43px;
+    height: 43px;
+}
+
+.beranda-mentee-res .profil{
+    width: 60px;
+    height: 52px;
+    transition: 0.4s;
+}
+
+.profil:hover{
+    transform: scale(1.05);
+}
+
+.beranda-mentee-res .headline-mentee {
+    display: flex;
+    padding: 39px 100px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 0px 212px;
+    align-self: stretch;
+    flex-wrap: wrap;
+    border-radius: 35px;
+    background: linear-gradient(180deg, #39B9A5 0%, rgba(57, 185, 165, 0.00) 100%);
+}
+.beranda-mentee-res .tidak-ada-kesuksesan {
+    position: relative;
+    width: 500px;
+    margin-top: -1px;
+    font-family: "Inria Serif", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.beranda-mentee-res .span {
+    font-family: "Inria Serif-BoldItalic", Helvetica;
+    font-style: italic;
+}
+.beranda-mentee-res .text-wrapper-2 {
+    font-family: "Inria Serif-BoldItalic", Helvetica;
+    font-style: italic;
+    font-size: 14px;
+}
+.beranda-mentee-res .rectangle {
+    position: relative;
+    width: 395.45px;
+    height: 248.92px;
+    object-fit: cover;
+    border-radius: 35px;
+}
+
+.beranda-mentee-res .ucapan-selamat{
+    display: flex;
+    padding: 166px 116px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.beranda-mentee-res .div{
+    flex: 1 0 0;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.beranda-mentee-res .manfaat{
+    display: flex;
+    width: 1440px;
+    flex-direction: column;
+    align-items: center;
+    gap: 109px;
+}
+
+.beranda-mentee-res .title-manfaat{
+    height: 24px;
+    align-self: stretch;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.beranda-mentee-res .isi-manfaat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 70px 218px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.beranda-mentee-res .div-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 41px;
+}
+
+.beranda-mentee-res .certificate{
+    width: 314px;
+    height: 203px;
+    border-radius: 25px;
+    background: url(<path-to-image>), lightgray 50% / contain no-repeat;
+}
+
+.beranda-mentee-res .text-wrapper-3{
+    width: 260px;
+    height: 59px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.beranda-mentee-res .orang{
+    width: 314px;
+    height: 203px;
+    border-radius: 25px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.beranda-mentee-res .globe{
+    width: 314px;
+    height: 203px;
+    border-radius: 25px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.beranda-mentee-res .sertifikasi{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    align-self: stretch;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.beranda-mentee-res .atas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.beranda-mentee-res .img{
+    width: 187px;
+    height: 58px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.beranda-mentee-res .BNSP{
+    width: 187px;
+    height: 58px;
+    border-radius: 20px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.beranda-mentee-res .p{
+    min-width: 544px;
+    align-self: stretch;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.beranda-mentee-res .bawah{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 23px;
+    background: #74B2A5;
+}
+
+.beranda-mentee-res .text-wrapper-4{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.beranda-mentee-res .mentor-berpengalaman{
+    display: flex;
+    padding: 10px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 59px;
+    align-self: stretch;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.beranda-mentee-res .title-mentor{
+    height: 39px;
+    align-self: stretch;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.beranda-mentee-res .data-mentor{
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 30px 100px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.beranda-mentee-res .mentor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    border-radius: 25px;
+    background: linear-gradient(180deg, #266477 0%, rgba(38, 100, 119, 0.00) 100%);
+}
+
+.beranda-mentee-res .foto-profil-mentor{
+    display: flex;
+    width: 242px;
+    height: 227px;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.beranda-mentee-res .img-2{
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 90px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.beranda-mentee-res .deskripsi-mentor{
+    display: flex;
+    width: 242px;
+    height: 271px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    border: 1px solid #000;
+    background: rgba(239, 239, 238, 0.30);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.beranda-mentee-res .text-wrapper-5{
+    flex: 1 0 0;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.beranda-mentee-res .butt{
+    display: flex;
+    align-items: flex-start;
+    gap: 11px;
+}
+
+.beranda-mentee-res .div-wrapper{
+    display: flex;
+    width: 85px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 25px;
+    background: #266477;
+}
+
+.beranda-mentee-res .text-wrapper-6{
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.beranda-mentee-res .frame{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    background: rgba(38, 100, 119, 0.60);
+}
+
+.beranda-mentee-res .text-wrapper-7{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.beranda-mentee-res .testimoni{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 53px;
+    align-self: stretch;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.beranda-mentee-res .isi-testimoni{
+    display: flex;
+    padding: 10px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 53px;
+    align-self: stretch;
+}
+
+.beranda-mentee-res .testimoni-2{
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 61px;
+    align-self: stretch;
+    flex-wrap: wrap;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.beranda-mentee-res .foto-profil{
+    display: flex;
+    padding: 10px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 20px;
+    background: #FFF;
+}
+
+.beranda-mentee-res .foto-profil-2{
+    width: 155px;
+    height: 153px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.beranda-mentee-res .deskripsi-testimoni{
+    display: flex;
+    height: 175px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    flex: 1 0 0;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    background: #ECF7F2;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.beranda-mentee-res .text-wrapper-8{
+    flex: 1 0 0;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.beranda-mentee-res .masukkan{
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 50px 250px;
+    align-self: stretch;
+    flex-wrap: wrap;
+    background: rgba(177, 214, 176, 0.33);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.beranda-mentee-res .masukkan-kiri{
+    display: flex;
+    width: 435px;
+    height: 131px;
+    padding: 10px 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.beranda-mentee-res .masukkan-kanan{
+    display: flex;
+    width: 495px;
+    height: 131px;
+    padding: 0px 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 19px;
+}
+
+.beranda-mentee-res .div-wrapper-2{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.beranda-mentee-res .deskripsi-imenka{
+    width: 287.794px;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.beranda-mentee-res .office{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.beranda-mentee-res .text-wrapper-9{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.beranda-mentee-res .email{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.beranda-mentee-res .footer-mentee{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.beranda-mentee-res .footer{
+    display: flex;
+    padding: 10px 175px 10px 128px;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    background: #16BFA6;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.beranda-mentee-res .footer-kiri{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+ 
+.beranda-mentee-res .logo{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    transition: 0.4s;
+}
+
+.beranda-mentee-res .div-wrapper0{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.beranda-mentee-res .title-footer{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 240px;
+}
+
+.beranda-mentee-res .footer-tengah{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 29px;
+}
+
+.beranda-mentee-res .menu{
+    display: flex;
+    padding: 10px 0px;
+    align-items: center;
+    gap: 10px;
+}
+
+.beranda-mentee-res .text-wrapper-55{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.beranda-mentee-res .isi-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.beranda-mentee-res .text-wrapper-22{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: 0.4s;
+}
+
+.text-wrapper-22:hover{
+    color: #ffffff;
+}
+
+.beranda-mentee-res .footer-kanan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.beranda-mentee-res .follow{
+    display: flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.beranda-mentee-res .text-wrapper-77{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.beranda-mentee-res .sosmed{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.beranda-mentee-res .text-wrapper-66{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

@@ -1,0 +1,1884 @@
+.panduankarier-mentee-awal-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  .panduankarier-mentee-awal-panduankarier-mentee-awal {
+    width: 100%;
+    height: 2799px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .panduankarier-mentee-awal-frame158 {
+    gap: 5px;
+    top: 0px;
+    left: -3px;
+    width: 1443px;
+    display: flex;
+    position: absolute;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+  .panduankarier-mentee-awal-frame157 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .panduankarier-mentee-awal-header-home {
+    gap: 94px;
+    width: 1442px;
+    height: 141px;
+    display: flex;
+    padding: 14px 0 14px 15px;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(0, 0, 0, 1);
+    border-style: solid;
+    border-width: 1px;
+    justify-content: space-between;
+    background-image: linear-gradient(180deg, rgba(38, 100, 119, 1) 35%, rgba(38, 100, 119, 0) 100%);
+  }
+  .panduankarier-mentee-awal-logo {
+    gap: 10px;
+    display: flex;
+    padding: 25px 10px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .panduankarier-mentee-awal-logo1 {
+    width: 141px;
+    height: 43px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .panduankarier-mentee-awal-wq1 {
+    top: 0px;
+    left: 0px;
+    width: 141px;
+    height: 43px;
+    position: absolute;
+  }
+  .panduankarier-mentee-awal-frame25 {
+    gap: 56px;
+    width: 883px;
+    height: 62px;
+    display: flex;
+    padding: 35px 0;
+    align-items: flex-start;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .panduankarier-mentee-awal-text {
+    color: rgba(255, 255, 255, 1);
+    width: 57px;
+    height: auto;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-text002 {
+    color: rgba(255, 255, 255, 1);
+    width: 138px;
+    height: auto;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-text004 {
+    color: rgba(255, 255, 255, 1);
+    width: 59px;
+    height: auto;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-text006 {
+    color: rgba(255, 255, 255, 1);
+    width: 132px;
+    height: auto;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-text008 {
+    color: rgba(255, 255, 255, 1);
+    width: 132px;
+    height: auto;
+    font-size: 16px;
+    font-style: Extra Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-text010 {
+    color: rgba(255, 255, 255, 1);
+    width: 85px;
+    height: auto;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-search-bar {
+    gap: 20px;
+    width: 50px;
+    height: 51px;
+    display: flex;
+    padding: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.25) ;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 22px;
+    flex-direction: column;
+    background-image: linear-gradient(180deg, rgba(38, 100, 119, 1) 47%, rgba(38, 100, 119, 0) 100%);
+  }
+  .panduankarier-mentee-awal-search-header {
+    gap: 10px;
+    width: 322.1688232421875px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .panduankarier-mentee-awal-search-button {
+    width: 34px;
+    height: 34px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .panduankarier-mentee-awal-ellipse8 {
+    top: 0px;
+    left: 7.800218105316162px;
+    width: 26px;
+    height: 26px;
+    position: absolute;
+  }
+  .panduankarier-mentee-awal-line7 {
+    top: 22px;
+    left: 11.701094627380371px;
+    width: 17px;
+    height: 1px;
+    position: absolute;
+  }
+  .panduankarier-mentee-awal-text012 {
+    color: rgba(0, 0, 0, 1);
+    width: 244px;
+    height: auto;
+    opacity: 0.30;
+    font-size: 16px;
+    align-self: stretch;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-x {
+    width: 24px;
+    height: 22.00031089782715px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .panduankarier-mentee-awal-line134 {
+    top: 21.998828887939453px;
+    left: 0px;
+    width: 33px;
+    height: 1px;
+    position: absolute;
+  }
+  .panduankarier-mentee-awal-line135 {
+    top: 0.00031108231632970273px;
+    left: 0px;
+    width: 33px;
+    height: 1px;
+    position: absolute;
+  }
+  .panduankarier-mentee-awal-results {
+    gap: -1px;
+    height: 1px;
+    display: flex;
+    overflow: hidden;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .panduankarier-mentee-awal-result-search {
+    width: 30px;
+    height: 18px;
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    align-items: flex-start;
+  }
+  .panduankarier-mentee-awal-text014 {
+    left: 3.3818180561065674px;
+    color: rgba(0, 0, 0, 1);
+    width: 27px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: stretch;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-vector {
+    top: 0px;
+    left: 0px;
+    width: 2px;
+    height: 18px;
+    position: absolute;
+  }
+  .panduankarier-mentee-awal-result-search1 {
+    width: 30px;
+    height: 18px;
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    align-items: flex-start;
+  }
+  .panduankarier-mentee-awal-text016 {
+    left: 3.3818180561065674px;
+    color: rgba(0, 0, 0, 1);
+    width: 27px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: stretch;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-vector1 {
+    top: 0px;
+    left: 0px;
+    width: 2px;
+    height: 18px;
+    position: absolute;
+  }
+  .panduankarier-mentee-awal-result-search2 {
+    width: 30px;
+    height: 18px;
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    align-items: flex-start;
+  }
+  .panduankarier-mentee-awal-text018 {
+    left: 3.3818180561065674px;
+    color: rgba(0, 0, 0, 1);
+    width: 27px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: stretch;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-vector2 {
+    top: 0px;
+    left: 0px;
+    width: 2px;
+    height: 18px;
+    position: absolute;
+  }
+  .panduankarier-mentee-awal-result-search3 {
+    width: 30px;
+    height: 18px;
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    align-items: flex-start;
+  }
+  .panduankarier-mentee-awal-text020 {
+    left: 3.3818180561065674px;
+    color: rgba(0, 0, 0, 1);
+    width: 27px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: stretch;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-vector3 {
+    top: 0px;
+    left: 0px;
+    width: 2px;
+    height: 18px;
+    position: absolute;
+  }
+  .panduankarier-mentee-awal-result-search4 {
+    width: 30px;
+    height: 18px;
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    align-items: flex-start;
+  }
+  .panduankarier-mentee-awal-text022 {
+    left: 3.3818180561065674px;
+    color: rgba(0, 0, 0, 1);
+    width: 27px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: stretch;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-vector4 {
+    top: 0px;
+    left: 0px;
+    width: 2px;
+    height: 18px;
+    position: absolute;
+  }
+  .panduankarier-mentee-awal-image2 {
+    width: 60px;
+    height: 52px;
+  }
+  .panduankarier-mentee-awal-headlinementee {
+    gap: 212px;
+    width: 1440px;
+    height: 380px;
+    display: flex;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 35px;
+    background-color: rgba(21, 190, 165, 0.5);
+  }
+  .panduankarier-mentee-awal-katakata {
+    gap: 10px;
+    width: 546px;
+    height: 380px;
+    display: flex;
+    padding: 10px 100px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .panduankarier-mentee-awal-text024 {
+    color: rgba(0, 0, 0, 1);
+    width: 500px;
+    height: auto;
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+    font-family: Inria Serif;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-headlinetengah {
+    width: 20px;
+    height: 370px;
+  }
+  .panduankarier-mentee-awal-headlinegambarkanan {
+    gap: 10px;
+    width: 334px;
+    height: 380px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .panduankarier-mentee-awal-rectangle211 {
+    width: 395px;
+    height: 249px;
+    border-radius: 35px;
+  }
+  .panduankarier-mentee-awal-frame156 {
+    gap: 79px;
+    display: flex;
+    padding: 80px 0;
+    align-items: center;
+    flex-direction: column;
+  }
+  .panduankarier-mentee-awal-frame154 {
+    gap: 74px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .panduankarier-mentee-awal-group307 {
+    width: 1363px;
+    height: 472px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .panduankarier-mentee-awal-text037 {
+    left: 116px;
+    color: rgba(0, 0, 0, 1);
+    width: 1119px;
+    height: auto;
+    position: absolute;
+    font-size: 32px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-deskripsi1 {
+    top: 100px;
+    left: 0px;
+    width: 341px;
+    height: 372px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .panduankarier-mentee-awal-deskripsi2 {
+    top: 100px;
+    left: 520px;
+    width: 341.27496337890625px;
+    height: 372px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .panduankarier-mentee-awal-deskripsi3 {
+    top: 100px;
+    left: 1022px;
+    width: 341.27496337890625px;
+    height: 372px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .panduankarier-mentee-awal-certificate {
+    top: 116px;
+    left: 71px;
+    width: 199px;
+    height: 203px;
+    position: absolute;
+  }
+  .panduankarier-mentee-awal-text039 {
+    top: 360px;
+    left: 42px;
+    color: rgba(0, 0, 0, 1);
+    width: 260px;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    font-style: Medium;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-text041 {
+    top: 360px;
+    left: 566px;
+    color: rgba(0, 0, 0, 1);
+    width: 260px;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    font-style: Medium;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-text043 {
+    top: 360px;
+    left: 1066px;
+    color: rgba(0, 0, 0, 1);
+    width: 260px;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    font-style: Medium;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-unsplash2s0b9a-tb7t0 {
+    top: 116px;
+    left: 535px;
+    width: 314px;
+    height: 203px;
+    position: absolute;
+    border-radius: 25px;
+  }
+  .panduankarier-mentee-awal-unsplash-fv-bv-vf0ctnk {
+    top: 116px;
+    left: 1052px;
+    width: 282px;
+    height: 203px;
+    position: absolute;
+    border-radius: 25px;
+  }
+  .panduankarier-mentee-awal-sertifikasi {
+    gap: 45px;
+    width: 1437px;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .panduankarier-mentee-awal-atas {
+    gap: 24px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+  }
+  .panduankarier-mentee-awal-logo2 {
+    width: 187px;
+    height: 58px;
+  }
+  .panduankarier-mentee-awal-bnsp1 {
+    width: 141px;
+    height: 54px;
+    border-radius: 20px;
+  }
+  .panduankarier-mentee-awal-text045 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 32px;
+    align-self: stretch;
+    font-style: Medium;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-bawah {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    border-radius: 23px;
+    justify-content: center;
+    background-color: rgba(116, 178, 165, 1);
+  }
+  .panduankarier-mentee-awal-text047 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 20px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-frame155 {
+    gap: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .panduankarier-mentee-awal-frame152 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .panduankarier-mentee-awal-text049 {
+    color: rgba(0, 0, 0, 1);
+    width: 1292px;
+    height: auto;
+    font-size: 32px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-frame151 {
+    gap: 52px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .panduankarier-mentee-awal-group32 {
+    width: 1303px;
+    height: 39px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(38, 100, 119, 0.6000000238418579);
+  }
+  .panduankarier-mentee-awal-text051 {
+    top: 6px;
+    left: 41.39191436767578px;
+    color: rgba(0, 0, 0, 1);
+    width: 356px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-frame150 {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .panduankarier-mentee-awal-component1 {
+    width: 1209px;
+    height: 474px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .panduankarier-mentee-awal-group265 {
+    top: 0px;
+    left: 0px;
+    width: 288px;
+    height: 474px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .panduankarier-mentee-awal-group34 {
+    top: 0px;
+    left: 0px;
+    width: 288px;
+    height: 474px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-image: linear-gradient(180deg, rgba(38, 100, 119, 1) 0%, rgba(38, 100, 119, 0) 100%);
+  }
+  .panduankarier-mentee-awal-line16 {
+    top: 308px;
+    left: 41px;
+    width: 197px;
+    height: 1px;
+    position: absolute;
+  }
+  .panduankarier-mentee-awal-line17 {
+    top: 379.20001220703125px;
+    left: 42.54545593261719px;
+    width: 197px;
+    height: 1px;
+    position: absolute;
+  }
+  .panduankarier-mentee-awal-daftardan-detail {
+    gap: 4px;
+    top: 417px;
+    left: 41px;
+    width: 206px;
+    height: 37px;
+    display: flex;
+    z-index: 1;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 25px;
+  }
+  .panduankarier-mentee-awal-rectangle31 {
+    width: 98px;
+    height: 33px;
+    border-radius: 10px;
+  }
+  .panduankarier-mentee-awal-rectangle32 {
+    width: 98px;
+    height: 33px;
+    z-index: 1;
+    border-radius: 10px;
+  }
+  .panduankarier-mentee-awal-text053 {
+    top: 8px;
+    left: 21px;
+    color: rgba(0, 0, 0, 1);
+    width: 58px;
+    height: auto;
+    z-index: 2;
+    position: absolute;
+    font-size: 15px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-text055 {
+    top: 8px;
+    left: 122px;
+    color: rgba(0, 0, 0, 1);
+    width: 68px;
+    height: auto;
+    z-index: 3;
+    position: absolute;
+    font-size: 15px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-text057 {
+    top: 264px;
+    left: 43px;
+    color: rgba(0, 0, 0, 1);
+    width: 194px;
+    height: auto;
+    z-index: 2;
+    position: absolute;
+    font-size: 14px;
+    font-style: Medium;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-mentor11 {
+    top: 61px;
+    left: 70px;
+    width: 148px;
+    height: 148px;
+    z-index: 3;
+    position: absolute;
+    border-radius: 90px;
+  }
+  .panduankarier-mentee-awal-frame31 {
+    gap: 2px;
+    top: 313px;
+    left: 41px;
+    display: flex;
+    z-index: 4;
+    position: absolute;
+    align-items: center;
+    border-radius: 25px;
+    flex-direction: column;
+  }
+  .panduankarier-mentee-awal-text059 {
+    color: rgba(0, 0, 0, 1);
+    width: 117px;
+    height: auto;
+    font-size: 14px;
+    font-style: Medium;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-text061 {
+    color: rgba(0, 0, 0, 1);
+    width: 196px;
+    height: auto;
+    font-size: 14px;
+    font-style: Medium;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-group266 {
+    top: 0px;
+    left: 461px;
+    width: 288px;
+    height: 474px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .panduankarier-mentee-awal-group262 {
+    top: 0px;
+    left: 0px;
+    width: 288px;
+    height: 474px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .panduankarier-mentee-awal-group341 {
+    top: 0px;
+    left: 0px;
+    width: 288px;
+    height: 474px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-image: linear-gradient(180deg, rgba(38, 100, 119, 1) 0%, rgba(38, 100, 119, 0) 100%);
+  }
+  .panduankarier-mentee-awal-line161 {
+    top: 308px;
+    left: 41px;
+    width: 197px;
+    height: 1px;
+    position: absolute;
+  }
+  .panduankarier-mentee-awal-line171 {
+    top: 379.20001220703125px;
+    left: 42.54545593261719px;
+    width: 197px;
+    height: 1px;
+    position: absolute;
+  }
+  .panduankarier-mentee-awal-daftardan-detail1 {
+    gap: 4px;
+    top: 417px;
+    left: 41px;
+    width: 206px;
+    height: 37px;
+    display: flex;
+    z-index: 1;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 25px;
+  }
+  .panduankarier-mentee-awal-rectangle311 {
+    width: 98px;
+    height: 33px;
+    border-radius: 10px;
+  }
+  .panduankarier-mentee-awal-rectangle321 {
+    width: 98px;
+    height: 33px;
+    z-index: 1;
+    border-radius: 10px;
+  }
+  .panduankarier-mentee-awal-text063 {
+    top: 8px;
+    left: 21px;
+    color: rgba(0, 0, 0, 1);
+    width: 58px;
+    height: auto;
+    z-index: 2;
+    position: absolute;
+    font-size: 15px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-text065 {
+    top: 8px;
+    left: 122px;
+    color: rgba(0, 0, 0, 1);
+    width: 68px;
+    height: auto;
+    z-index: 3;
+    position: absolute;
+    font-size: 15px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-text067 {
+    top: 264px;
+    left: 43px;
+    color: rgba(0, 0, 0, 1);
+    width: 194px;
+    height: auto;
+    z-index: 2;
+    position: absolute;
+    font-size: 14px;
+    font-style: Medium;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-frame311 {
+    gap: 2px;
+    top: 313px;
+    left: 41px;
+    display: flex;
+    z-index: 3;
+    position: absolute;
+    align-items: center;
+    border-radius: 25px;
+    flex-direction: column;
+  }
+  .panduankarier-mentee-awal-text069 {
+    color: rgba(0, 0, 0, 1);
+    width: 117px;
+    height: auto;
+    font-size: 14px;
+    font-style: Medium;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-text071 {
+    color: rgba(0, 0, 0, 1);
+    width: 196px;
+    height: auto;
+    font-size: 14px;
+    font-style: Medium;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-image21 {
+    top: 61px;
+    left: 70px;
+    width: 148px;
+    height: 148px;
+    position: absolute;
+    border-radius: 90px;
+  }
+  .panduankarier-mentee-awal-group271 {
+    top: 0px;
+    left: 922px;
+    width: 288px;
+    height: 474px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .panduankarier-mentee-awal-group267 {
+    top: 0px;
+    left: 0px;
+    width: 288px;
+    height: 474px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .panduankarier-mentee-awal-group2621 {
+    top: 0px;
+    left: 0px;
+    width: 288px;
+    height: 474px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .panduankarier-mentee-awal-group342 {
+    top: 0px;
+    left: 0px;
+    width: 288px;
+    height: 474px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-image: linear-gradient(180deg, rgba(38, 100, 119, 1) 0%, rgba(38, 100, 119, 0) 100%);
+  }
+  .panduankarier-mentee-awal-line162 {
+    top: 308px;
+    left: 41px;
+    width: 197px;
+    height: 1px;
+    position: absolute;
+  }
+  .panduankarier-mentee-awal-line172 {
+    top: 379.20001220703125px;
+    left: 42.54545593261719px;
+    width: 197px;
+    height: 1px;
+    position: absolute;
+  }
+  .panduankarier-mentee-awal-daftardan-detail2 {
+    gap: 4px;
+    top: 417px;
+    left: 41px;
+    width: 206px;
+    height: 37px;
+    display: flex;
+    z-index: 1;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 25px;
+  }
+  .panduankarier-mentee-awal-rectangle312 {
+    width: 98px;
+    height: 33px;
+    border-radius: 10px;
+  }
+  .panduankarier-mentee-awal-rectangle322 {
+    width: 98px;
+    height: 33px;
+    z-index: 1;
+    border-radius: 10px;
+  }
+  .panduankarier-mentee-awal-text073 {
+    top: 8px;
+    left: 21px;
+    color: rgba(0, 0, 0, 1);
+    width: 58px;
+    height: auto;
+    z-index: 2;
+    position: absolute;
+    font-size: 15px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-text075 {
+    top: 8px;
+    left: 122px;
+    color: rgba(0, 0, 0, 1);
+    width: 68px;
+    height: auto;
+    z-index: 3;
+    position: absolute;
+    font-size: 15px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-text077 {
+    top: 264px;
+    left: 43px;
+    color: rgba(0, 0, 0, 1);
+    width: 194px;
+    height: auto;
+    z-index: 2;
+    position: absolute;
+    font-size: 14px;
+    font-style: Medium;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-frame312 {
+    gap: 2px;
+    top: 313px;
+    left: 41px;
+    display: flex;
+    z-index: 3;
+    position: absolute;
+    align-items: center;
+    border-radius: 25px;
+    flex-direction: column;
+  }
+  .panduankarier-mentee-awal-text079 {
+    color: rgba(0, 0, 0, 1);
+    width: 117px;
+    height: auto;
+    font-size: 14px;
+    font-style: Medium;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-text081 {
+    color: rgba(0, 0, 0, 1);
+    width: 196px;
+    height: auto;
+    font-size: 14px;
+    font-style: Medium;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-image31 {
+    top: 61px;
+    left: 70px;
+    width: 148px;
+    height: 148px;
+    position: absolute;
+    border-radius: 90px;
+  }
+  .panduankarier-mentee-awal-group270 {
+    top: 0px;
+    left: 1383px;
+    width: 288px;
+    height: 474px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .panduankarier-mentee-awal-group268 {
+    top: 0px;
+    left: 0px;
+    width: 288px;
+    height: 474px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .panduankarier-mentee-awal-group2622 {
+    top: 0px;
+    left: 0px;
+    width: 288px;
+    height: 474px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .panduankarier-mentee-awal-group343 {
+    top: 0px;
+    left: 0px;
+    width: 288px;
+    height: 474px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-image: linear-gradient(180deg, rgba(38, 100, 119, 1) 0%, rgba(38, 100, 119, 0) 100%);
+  }
+  .panduankarier-mentee-awal-line163 {
+    top: 308px;
+    left: 41px;
+    width: 197px;
+    height: 1px;
+    position: absolute;
+  }
+  .panduankarier-mentee-awal-line173 {
+    top: 379.20001220703125px;
+    left: 42.54545593261719px;
+    width: 197px;
+    height: 1px;
+    position: absolute;
+  }
+  .panduankarier-mentee-awal-daftardan-detail3 {
+    gap: 4px;
+    top: 417px;
+    left: 41px;
+    width: 206px;
+    height: 37px;
+    display: flex;
+    z-index: 1;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 25px;
+  }
+  .panduankarier-mentee-awal-rectangle313 {
+    width: 98px;
+    height: 33px;
+    border-radius: 10px;
+  }
+  .panduankarier-mentee-awal-rectangle323 {
+    width: 98px;
+    height: 33px;
+    z-index: 1;
+    border-radius: 10px;
+  }
+  .panduankarier-mentee-awal-text082 {
+    top: 8px;
+    left: 21px;
+    color: rgba(0, 0, 0, 1);
+    width: 58px;
+    height: auto;
+    z-index: 2;
+    position: absolute;
+    font-size: 15px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-text084 {
+    top: 8px;
+    left: 122px;
+    color: rgba(0, 0, 0, 1);
+    width: 68px;
+    height: auto;
+    z-index: 3;
+    position: absolute;
+    font-size: 15px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-text086 {
+    top: 264px;
+    left: 43px;
+    color: rgba(0, 0, 0, 1);
+    width: 194px;
+    height: auto;
+    z-index: 2;
+    position: absolute;
+    font-size: 14px;
+    font-style: Medium;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-frame313 {
+    gap: 2px;
+    top: 313px;
+    left: 41px;
+    display: flex;
+    z-index: 3;
+    position: absolute;
+    align-items: center;
+    border-radius: 25px;
+    flex-direction: column;
+  }
+  .panduankarier-mentee-awal-text088 {
+    color: rgba(0, 0, 0, 1);
+    width: 117px;
+    height: auto;
+    font-size: 14px;
+    font-style: Medium;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-text090 {
+    color: rgba(0, 0, 0, 1);
+    width: 196px;
+    height: auto;
+    font-size: 14px;
+    font-style: Medium;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-image41 {
+    top: 61px;
+    left: 70px;
+    width: 148px;
+    height: 148px;
+    position: absolute;
+    border-radius: 90px;
+  }
+  .panduankarier-mentee-awal-group272 {
+    top: 0px;
+    left: 1844px;
+    width: 288px;
+    height: 474px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .panduankarier-mentee-awal-group269 {
+    top: 0px;
+    left: 0px;
+    width: 288px;
+    height: 474px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .panduankarier-mentee-awal-group2623 {
+    top: 0px;
+    left: 0px;
+    width: 288px;
+    height: 474px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .panduankarier-mentee-awal-group344 {
+    top: 0px;
+    left: 0px;
+    width: 288px;
+    height: 474px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-image: linear-gradient(180deg, rgba(38, 100, 119, 1) 0%, rgba(38, 100, 119, 0) 100%);
+  }
+  .panduankarier-mentee-awal-line164 {
+    top: 308px;
+    left: 41px;
+    width: 197px;
+    height: 1px;
+    position: absolute;
+  }
+  .panduankarier-mentee-awal-line174 {
+    top: 379.20001220703125px;
+    left: 42.54545593261719px;
+    width: 197px;
+    height: 1px;
+    position: absolute;
+  }
+  .panduankarier-mentee-awal-daftardan-detail4 {
+    gap: 4px;
+    top: 417px;
+    left: 41px;
+    width: 206px;
+    height: 37px;
+    display: flex;
+    z-index: 1;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 25px;
+  }
+  .panduankarier-mentee-awal-rectangle314 {
+    width: 98px;
+    height: 33px;
+    border-radius: 10px;
+  }
+  .panduankarier-mentee-awal-rectangle324 {
+    width: 98px;
+    height: 33px;
+    z-index: 1;
+    border-radius: 10px;
+  }
+  .panduankarier-mentee-awal-text091 {
+    top: 8px;
+    left: 21px;
+    color: rgba(0, 0, 0, 1);
+    width: 58px;
+    height: auto;
+    z-index: 2;
+    position: absolute;
+    font-size: 15px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-text093 {
+    top: 8px;
+    left: 122px;
+    color: rgba(0, 0, 0, 1);
+    width: 68px;
+    height: auto;
+    z-index: 3;
+    position: absolute;
+    font-size: 15px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-text095 {
+    top: 264px;
+    left: 43px;
+    color: rgba(0, 0, 0, 1);
+    width: 194px;
+    height: auto;
+    z-index: 2;
+    position: absolute;
+    font-size: 14px;
+    font-style: Medium;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-frame314 {
+    gap: 2px;
+    top: 313px;
+    left: 41px;
+    display: flex;
+    z-index: 3;
+    position: absolute;
+    align-items: center;
+    border-radius: 25px;
+    flex-direction: column;
+  }
+  .panduankarier-mentee-awal-text097 {
+    color: rgba(0, 0, 0, 1);
+    width: 117px;
+    height: auto;
+    font-size: 14px;
+    font-style: Medium;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-text099 {
+    color: rgba(0, 0, 0, 1);
+    width: 196px;
+    height: auto;
+    font-size: 14px;
+    font-style: Medium;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-image51 {
+    top: 61px;
+    left: 70px;
+    width: 148px;
+    height: 148px;
+    position: absolute;
+    border-radius: 90px;
+  }
+  .panduankarier-mentee-awal-frame60 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    border-color: rgba(0, 0, 0, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    justify-content: center;
+    background-color: rgba(38, 100, 119, 0.6000000238418579);
+  }
+  .panduankarier-mentee-awal-text104 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 24px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-frame153 {
+    gap: 79px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+  .panduankarier-mentee-awal-group249 {
+    width: 1443px;
+    height: 166.61520385742188px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .panduankarier-mentee-awal-masukkan {
+    top: 0px;
+    left: 0px;
+    width: 1443px;
+    height: 166.61520385742188px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(38, 100, 119, 1);
+  }
+  .panduankarier-mentee-awal-text106 {
+    top: 36.606117248535156px;
+    left: 115.703369140625px;
+    color: rgba(255, 255, 255, 1);
+    width: 288px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-text108 {
+    top: 127.99990844726562px;
+    left: 115.48622131347656px;
+    color: rgba(255, 255, 255, 1);
+    width: 346px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-text110 {
+    top: 36.65385437011719px;
+    left: 901.6203002929688px;
+    color: rgba(255, 255, 255, 1);
+    width: 428px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-text112 {
+    top: 70.26922607421875px;
+    left: 901.6203002929688px;
+    color: rgba(255, 255, 255, 1);
+    width: 428px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-footer-mentee {
+    gap: 10px;
+    top: 2532px;
+    left: -1px;
+    width: 1440px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .panduankarier-mentee-awal-footer {
+    width: 1440px;
+    height: 267px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-image: linear-gradient(180deg, rgba(38, 100, 119, 1) 0%, rgba(38, 100, 119, 0) 77%);
+  }
+  .panduankarier-mentee-awal-text114 {
+    top: 28.24560546875px;
+    left: 656.228759765625px;
+    color: rgba(0, 0, 0, 1);
+    width: 48px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-text116 {
+    top: 24.6396484375px;
+    left: 1198.478759765625px;
+    color: rgba(0, 0, 0, 1);
+    width: 83px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-text118 {
+    top: 90.74609375px;
+    left: 1198.478759765625px;
+    color: rgba(0, 0, 0, 1);
+    width: 72px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-text125 {
+    top: 90.490234375px;
+    left: 656.2787475585938px;
+    color: rgba(0, 0, 0, 1);
+    width: 48px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-text127 {
+    top: 114.18994140625px;
+    left: 656.2787475585938px;
+    color: rgba(0, 0, 0, 1);
+    width: 112px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-text129 {
+    top: 137.8896484375px;
+    left: 656.2787475585938px;
+    color: rgba(0, 0, 0, 1);
+    width: 56px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-text131 {
+    top: 162.6669921875px;
+    left: 656.2787475585938px;
+    color: rgba(0, 0, 0, 1);
+    width: 122px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-text133 {
+    top: 188.11376953125px;
+    left: 656.2787475585938px;
+    color: rgba(0, 0, 0, 1);
+    width: 122px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-text135 {
+    top: 210.11083984375px;
+    left: 651.2613525390625px;
+    color: rgba(0, 0, 0, 1);
+    width: 96px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-text137 {
+    top: 130.74609375px;
+    left: 62.978515625px;
+    color: rgba(0, 0, 0, 1);
+    width: 240px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .panduankarier-mentee-awal-logo3 {
+    width: 141px;
+    height: 43px;
+    display: flex;
+    z-index: 1;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .panduankarier-mentee-awal-wq11 {
+    top: 0px;
+    left: 0px;
+    width: 141px;
+    height: 43px;
+    position: absolute;
+  }

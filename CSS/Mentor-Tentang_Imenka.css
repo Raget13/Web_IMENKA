@@ -1,0 +1,562 @@
+.tentang-imenka-landing{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tentang-imenka-landing .tentang-imenka-landing-res{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 31px;
+}
+
+.tentang-imenka-landing-res .header{
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    background: linear-gradient(180deg, #00A09F 0%, #00687D 99.97%, rgba(255, 255, 255, 0.00) 99.98%, rgba(100, 197, 197, 0.61) 99.99%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.tentang-imenka-landing-res .header-kiri{
+    display: flex;
+    width: 207px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.tentang-imenka-landing-res .LOGO{
+    width: 187px;
+    height: 58px;
+    flex-shrink: 0;
+    transition: 0.4s;
+}
+
+.LOGO:hover{
+    transform: scale(1.05);
+  }
+
+.tentang-imenka-landing-res .navbar{
+    display: flex;
+    padding: 10px 50px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    row-gap: 5px;
+    flex: 1 0 0;
+    flex-wrap: wrap;
+}
+
+.tentang-imenka-landing-res .tentang-imenka-header{
+    width: 137.754px;
+    height: 35.414px;
+    color: #000000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    transition: 0.4s;
+}
+
+.tentang-imenka-header:hover{
+    letter-spacing: 0.05em;
+    color: #17232b;
+    font-weight: 800;
+  }
+
+.tentang-imenka-landing-res .home-header{
+    width: 57.284px;
+    height: 35.414px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    transition: 0.4s;
+}
+
+.home-header:hover{
+    letter-spacing: 0.05em;
+    color: #17232b;
+    font-weight: 800;
+  }
+
+.tentang-imenka-landing-res .jadwal-kelas-header{
+    width: 131.617px;
+    height: 35.414px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    transition: 0.4s;
+}
+
+.jadwal-kelas-header:hover{
+    letter-spacing: 0.05em;
+    color: #17232b;
+    font-weight: 800;
+  }
+
+.tentang-imenka-landing-res .list-mentee-header{
+    width: 131.617px;
+    height: 35.414px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    transition: 0.4s;
+}
+
+.list-mentee-header:hover{
+    letter-spacing: 0.05em;
+    color: #17232b;
+    font-weight: 800;
+  }
+
+.tentang-imenka-landing-res .header-kanan{
+    display: flex;
+    width: 157px;
+    padding: 10px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+}
+
+.tentang-imenka-landing-res .search-button{
+    width: 43px;
+    height: 43px;
+    flex-shrink: 0;
+}
+
+.tentang-imenka-landing-res .profil{
+    width: 59.876px;
+    height: 54.582px;
+    flex-shrink: 0;
+    transition: 0.4s;
+}
+
+.profil:hover{
+    transform: scale(1.05);
+  }
+
+  .tentang-imenka-landing-res .headline{
+    display: flex;
+height: 148px;
+padding: 20px 0px;
+flex-direction: column;
+align-items: center;
+gap: 28px;
+align-self: stretch;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(0deg, rgb(255, 255, 255), rgba(0, 255, 0, 0) 20.71%),
+            linear-gradient(180deg, rgba(0, 160, 159, 0.366), rgba(0, 255, 0, 0) 100.71%);
+  }
+
+  .tentang-imenka-landing-res .title-headline{
+    display: flex;
+justify-content: center;
+align-items: flex-start;
+gap: 10px;
+align-self: stretch;
+  }
+
+  .tentang-imenka-landing-res .text-wrapper-2{
+    color: #000;
+text-align: center;
+font-family: Inria Serif;
+font-size: 30px;
+font-style: italic;
+font-weight: 700;
+line-height: normal;
+flex: 1 0 0;
+  }
+
+  .tentang-imenka-landing-res .kata-headline{
+    display: flex;
+padding: 10px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+  }
+
+  .tentang-imenka-landing-res .p{
+    min-width: 190px;
+flex: 1 0 0;
+color: #000;
+text-align: center;
+font-family: Inria Serif;
+font-size: 20px;
+font-style: italic;
+font-weight: 700;
+line-height: normal;
+  }
+
+  .tentang-imenka-landing-res .alasan{
+    display: flex;
+padding: 50px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(0deg, rgb(255, 255, 255), rgba(0, 255, 0, 0) 20.71%),
+            linear-gradient(180deg, rgba(0, 160, 159, 0.366), rgba(0, 255, 0, 0) 100.71%);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .tentang-imenka-landing-res .mengapa-imenka{
+    flex: 1 0 0;
+    color: #000;
+text-align: center;
+font-family: Inria Serif;
+font-size: 24px;
+font-style: italic;
+font-weight: 700;
+line-height: normal;
+  }
+
+  .tentang-imenka-landing-res .misi{
+    display: flex;
+padding: 30px 50px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 24px;
+align-self: stretch;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(0deg, rgb(255, 255, 255), rgba(0, 255, 0, 0) 20.71%),
+            linear-gradient(180deg, rgba(86, 219, 161, 0.366), rgba(0, 255, 0, 0) 100.71%);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .tentang-imenka-landing-res .text-wrapper-3{
+    align-self: stretch;
+    color: #000;
+text-align: center;
+font-family: Inria Serif;
+font-size: 24px;
+font-style: italic;
+font-weight: 700;
+line-height: normal;
+  }
+
+  .tentang-imenka-landing-res .text-wrapper-4{
+    align-self: stretch;
+    color: #000;
+text-align: center;
+font-family: Inria Serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+
+  .tentang-imenka-landing-res .keunggulan-imenka{
+    display: flex;
+padding: 50px 0px;
+flex-direction: column;
+align-items: center;
+gap: 28px;
+align-self: stretch;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(0deg, rgb(255, 255, 255), rgba(0, 255, 0, 0) 20.71%),
+            linear-gradient(180deg, rgba(86, 219, 161, 0.366), rgba(0, 255, 0, 0) 100.71%);
+  }
+
+  .tentang-imenka-landing-res .judul-keunggulan{
+    display: flex;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+  }
+
+  .tentang-imenka-landing-res .text-wrapper-5{
+    color: #000;
+text-align: center;
+font-family: Inria Serif;
+font-size: 32px;
+font-style: italic;
+font-weight: 700;
+line-height: normal;
+  }
+
+  .tentang-imenka-landing-res .jenis-keunggulan{
+    display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+gap: 32px 33px;
+align-self: stretch;
+flex-wrap: wrap;
+  }
+
+  .tentang-imenka-landing-res .div-2{
+    display: flex;
+width: 671px;
+height: 438px;
+padding: 30px 10px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 30px;
+border-radius: 50px;
+background: #15BEA5;
+  }
+
+  .tentang-imenka-landing-res .tim-kami{
+    display: flex;
+padding: 20px;
+flex-direction: column;
+align-items: center;
+gap: 50px;
+align-self: stretch;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(0deg, rgb(255, 255, 255), rgba(0, 255, 0, 0) 20.71%),
+            linear-gradient(180deg, rgba(21, 190, 165, 0.366), rgba(0, 255, 0, 0) 100.71%);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .tentang-imenka-landing-res .daftar-tim{
+    display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+gap: 64px;
+align-self: stretch;
+flex-wrap: wrap;
+  }
+
+  .tentang-imenka-landing-res .individu{
+    display: flex;
+flex-direction: column;
+align-items: center;
+gap: 32px;
+  }
+
+  .tentang-imenka-landing-res .ellipse{
+    width: 200px;
+height: 264px;
+border-radius: 264px;
+  }
+
+  .tentang-imenka-landing-res .text-wrapper-6{
+    color: #000;
+text-align: center;
+font-family: Inria Serif;
+font-size: 24px;
+font-style: italic;
+font-weight: 700;
+line-height: normal;
+  }
+
+  .tentang-imenka-landing-res .footer{
+    display: flex;
+    padding: 10px 175px 10px 128px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    background: linear-gradient(180deg, #00A09F 0%, #00687D 99.97%, rgba(255, 255, 255, 0.00) 99.98%, rgba(100, 197, 197, 0.61) 99.99%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.tentang-imenka-landing-res .footer-kiri{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 41px;
+}
+
+.tentang-imenka-landing-res .logo{
+    display: flex;
+padding: 10px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+}
+
+.tentang-imenka-landing-res .LOGO-2{
+    width: 187px;
+height: 58px;
+}
+
+.tentang-imenka-landing-res .embel{
+    display: flex;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+}
+
+.tentang-imenka-landing-res .title-footer{
+    position: relative;
+    width: 240px;
+    margin-top: -1px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.tentang-imenka-landing-res .footer-tengah{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 29px;
+}
+
+.tentang-imenka-landing-res .menu{
+    display: flex;
+padding: 10px 0px;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+}
+
+.tentang-imenka-landing-res .text-wrapper-66{
+    color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.tentang-imenka-landing-res .isi-menu{
+    display: flex;
+    height: 94px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.tentang-imenka-landing-res .home-footer{
+    width: 48.167px;
+    height: 25px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.tentang-imenka-landing-res .tentang-kami-footer{
+    width: 112.39px;
+    height: 25px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.tentang-imenka-landing-res .jadwal-kelas-footer{
+    width: 99px;
+    flex: 1 0 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.tentang-imenka-landing-res .list-mentee-footer{
+    width: 122.425px;
+    height: 25px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.tentang-imenka-landing-res .footer-kanan{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+gap: 32px;
+}
+
+.tentang-imenka-landing-res .follow{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+align-self: stretch;
+}
+
+.tentang-imenka-landing-res .text-wrapper-66{
+    color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.tentang-imenka-landing-res .sosmed{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 2px;
+align-self: stretch;
+}
+
+.tentang-imenka-landing-res .text-wrapper-77{
+    width: 83px;
+height: 22px;
+color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.tentang-imenka-landing-res .text-wrapper-88{
+    width: 60px;
+    height: 22px;
+color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.tentang-imenka-landing-res .text-wrapper-99{
+    width: 83px;
+    height: 22px;
+color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

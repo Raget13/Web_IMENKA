@@ -1,0 +1,1164 @@
+.landing-page {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .landing-page .landing-page-wrapper {
+    
+    width: 100%;
+    height: 4572px;
+  }
+  
+  .landing-page .landing-page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    gap: 35px;
+    position: relative;
+    
+  }
+  
+  .landing-page .header {
+    display: flex;
+padding: 10px 20px;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  .landing-page .header-kiri {
+    width: 231px;
+    justify-content: space-around;
+    gap: 251px;
+    padding: 10px 50px;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .landing-page .LOGO {
+    position: relative;
+    width: 187px;
+    height: 58px;
+    margin-left: -28px;
+    margin-right: -28px;
+    object-fit: cover;
+    transition: 0.4s;
+  }
+  .LOGO:hover{
+    transform: scale(1.05);
+  }
+  
+  .landing-page .navbar {
+    display: flex;
+padding: 10px 50px;
+justify-content: space-between;
+align-items: center;
+align-content: center;
+row-gap: 5px;
+flex: 1 0 0;
+flex-wrap: wrap;
+  }
+  
+  .landing-page .home-header {
+    position: relative;
+    width: 68.15px;
+    height: 46.56px;
+    color: #2F4858;
+font-family: Inknut Antiqua;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    transition: 0.4s;
+  }
+
+  .home-header:hover{
+    letter-spacing: 0.05em;
+    color: #17232b;
+    font-weight: 800;
+  }
+  
+  .landing-page .tentang-imenka {
+    position: relative;
+    width: 182.07px;
+    height: 46.56px;
+    margin-top: -1px;
+    color: #2F4858;
+font-family: Inknut Antiqua;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    transition: 0.4s;
+  }
+
+  .tentang-imenka:hover{
+    letter-spacing: 0.05em;
+    color: #17232b;
+    font-weight: 800;
+  }
+  
+  .landing-page .artikel-header {
+    color: #2F4858;
+font-family: Inknut Antiqua;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 93px;
+height: 46px;
+transition: 0.4s;
+  }
+
+  .artikel-header:hover{
+    letter-spacing: 0.05em;
+    color: #17232b;
+    font-weight: 800;
+  }
+  
+  .landing-page .informasi-loker {
+    position: relative;
+    width: 183.09px;
+    height: 46.56px;
+    margin-top: -1px;
+    color: #2F4858;
+font-family: Inknut Antiqua;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+transition: 0.4s;
+  }
+  
+  .informasi-loker:hover{
+    letter-spacing: 0.05em;
+    color: #17232b;
+    font-weight: 800;
+  }
+  
+  .landing-page .header-kanan {
+    width: 233px;
+    justify-content: flex-end;
+    gap: 24px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .landing-page .search-button {
+    position: relative;
+    width: 43px;
+    height: 43px;
+  }
+  
+  .landing-page .overlap-group {
+    display: flex;
+width: 128.939px;
+padding: 5px 0px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 11px;
+background: #56DBA1;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  .overlap-group:hover{
+    background-color:#2ce4e7 ;
+  }
+  
+  .landing-page .text-wrapper {
+    flex: 1 0 0;
+align-self: stretch;
+color: #000;
+text-align: center;
+font-family: Inknut Antiqua;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+  
+  .landing-page .headline {
+    display: flex;
+    height: 313px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    box-shadow: 0px 4px 4px #00000040;
+    background: linear-gradient(180deg, rgb(205.7, 229.71, 205.21) 0%, rgba(131.62, 233.75, 129.54, 0) 100%);
+  }
+  
+  .landing-page .headline-kiri {
+    flex-direction: column;
+    width: 494px;
+    justify-content: center;
+    gap: 10px;
+    padding: 50px 20px;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .landing-page .title-headline {
+    position: relative;
+    width: 394px;
+    font-family: "Inria Serif-BoldItalic", Helvetica;
+    font-weight: 700;
+    font-style: italic;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .landing-page .overlap-group-wrapper {
+    position: relative;
+    width: 134.91px;
+    height: 27.66px;
+  }
+  
+  .landing-page .headline-tengah {
+    justify-content: space-around;
+    gap: 10px;
+    padding: 10px;
+    flex: 1;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .landing-page .garis-pisah {
+    position: relative;
+    width: 1.4px;
+    height: 233.58px;
+  }
+  
+  .landing-page .headline-kanan {
+    width: 551px;
+    justify-content: flex-end;
+    gap: 24px;
+    padding: 10px;
+    
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .landing-page .gambar-headline {
+    position: relative;
+    width: 526px;
+    height: 254px;
+    object-fit: cover;
+  }
+  
+  .landing-page .informasi-web {
+    display: flex;
+justify-content: center;
+align-items: flex-start;
+align-content: flex-start;
+gap: 10px;
+align-self: stretch;
+flex-wrap: wrap;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  .landing-page .informasi-kiri {
+    display: flex;
+padding: 10px 20px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+}
+  
+  .landing-page .gambar-kiri {
+    width: 647px;
+height: 250px;
+flex-shrink: 0;
+border-radius: 43px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  }
+  
+  .landing-page .informasi-kanan {
+    display: flex;
+width: 677px;
+height: 310px;
+padding: 10px 20px;
+border-radius: 43px;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+flex-shrink: 0;
+background: linear-gradient(180deg, rgba(86, 219, 161, 0.29) 0%, rgba(147, 138, 138, 0.00) 100%);
+}
+  
+  .landing-page .pengertian-imenka {
+    position: relative;
+  width: 604px;
+  height: 184.75px;
+  margin-top: -1px;
+  font-family: "Fredoka-Bold", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+  
+  .landing-page .span {
+    font-family: Inknut Antiqua;
+  font-size: 16px;
+}
+  
+  .landing-page .text-wrapper-2 {
+    font-family: Inknut Antiqua;
+    font-size: 16px;
+  }
+  
+  .landing-page .manfaat {
+    display: flex;
+padding: 10px 20px;
+flex-direction: column;
+align-items: center;
+gap: 35px;
+align-self: stretch;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(0deg, rgb(255, 255, 255), rgba(0, 255, 0, 0) 20.71%),
+            linear-gradient(180deg, rgba(13, 236, 13, 0.366), rgba(0, 255, 0, 0) 100.71%);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  .landing-page .title-manfaat {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 0px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .landing-page .div {
+    position: relative;
+    width: 516px;
+    margin-top: -1px;
+    font-family: "Inria Serif-BoldItalic", Helvetica;
+    font-weight: 700;
+    font-style: italic;
+    color: #000000;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .landing-page .isi-manfaat {
+    display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+gap: 50px 163px;
+align-self: stretch;
+flex-wrap: wrap;
+  }
+  
+  .landing-page .manfaat-kiri {
+    display: flex;
+width: 320px;
+padding: 10px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 50px;
+background: linear-gradient(180deg, #86E584 0%, rgba(86, 219, 161, 0.00) 100%);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+cursor: pointer;
+transition: 0.4s;
+  }
+
+  .manfaat-kiri:hover{
+    background: linear-gradient(180deg, #15db12 0%, rgba(86, 219, 161, 0.00) 100%);
+    transform: scale(1.05);
+    letter-spacing: 0.05em;
+  }
+
+  .landing-page .manfaat-kanan {
+    display: flex;
+width: 320px;
+padding: 10px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 50px;
+background: linear-gradient(180deg, #86E584 0%, rgba(86, 219, 161, 0.00) 100%);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+cursor: pointer;
+transition: 0.4s;
+  }
+
+  .manfaat-kanan:hover{
+    background: linear-gradient(180deg, #15db12 0%, rgba(86, 219, 161, 0.00) 100%);
+    transform: scale(1.05);
+    letter-spacing: 0.05em;
+  }
+  
+  .landing-page .teks-manfaat {
+    width: 306.67px;
+    margin-top: -1px;
+    font-family: "Inria Serif-Bold", Helvetica;
+    font-size: 24px;
+    position: relative;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .landing-page .text-wrapper-3 {
+    font-family: "Inria Serif-BoldItalic", Helvetica;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .landing-page .text-wrapper-4 {
+    font-family: "Inria Serif-Regular", Helvetica;
+  }
+  
+  .landing-page .text-wrapper-5 {
+    font-family: "Inria Serif-Regular", Helvetica;
+    font-size: 19px;
+  }
+  
+  .landing-page .manfaat-tengah {
+    display: flex;
+width: 320px;
+height: 410px;
+padding: 10px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 50px;
+background: linear-gradient(180deg, #86E584 0%, rgba(86, 219, 161, 0.00) 100%);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+cursor: pointer;
+transition: 0.4s;
+  }
+
+  .manfaat-tengah:hover{
+    background: linear-gradient(180deg, #15db12 0%, rgba(86, 219, 161, 0.00) 100%);
+    transform: scale(1.05);
+    letter-spacing: 0.05em;
+  }
+  
+  .landing-page .p {
+    position: relative;
+    width: 295.76px;
+    margin-top: -1px;
+    font-family: "Inria Serif-Bold", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .landing-page .text-wrapper-6 {
+    font-family: "Inria Serif-Regular", Helvetica;
+    font-size: 18px;
+  }
+  
+  .landing-page .langkah-langkah {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    box-shadow: 0px 4px 4px #00000040;
+    background: linear-gradient(180deg, rgb(244.16, 244.16, 244.16) 0%, rgba(19.07, 119.21, 59.13, 0) 100%);
+  }
+  
+  .landing-page .div-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .landing-page .title-langkah {
+    position: relative;
+    width: 472.8px;
+    margin-top: -1px;
+    font-family: "Inria Serif-BoldItalic", Helvetica;
+    font-weight: 700;
+    font-style: italic;
+    color: #000000;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .landing-page .langkah {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .landing-page .gambar-langkah {
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .landing-page .teks-langkah {
+    width: 210px;
+    top: 343px;
+    left: 41px;
+    position: absolute;
+    font-family: "Inria Serif-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .landing-page .teks-langkah-2 {
+    width: 210px;
+    top: 11px;
+    left: 306px;
+    position: absolute;
+    font-family: "Inria Serif-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .landing-page .teks-langkah-3 {
+    width: 210px;
+    top: 363px;
+    left: 505px;
+    position: absolute;
+    font-family: "Inria Serif-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .landing-page .teks-langkah-4 {
+    width: 209px;
+    top: 134px;
+    left: 762px;
+    position: absolute;
+    font-family: "Inria Serif-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .landing-page .teks-langkah-5 {
+    width: 210px;
+    top: 371px;
+    left: 1025px;
+    position: absolute;
+    font-family: "Inria Serif-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .landing-page .mentor-berpengalaman {
+    display: flex;
+padding: 10px 20px;
+flex-direction: column;
+align-items: center;
+gap: 59px;
+align-self: stretch;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(180deg, rgb(255, 255, 255), rgba(0, 255, 0, 0) 20.71%),
+            linear-gradient(180deg, rgba(51, 156, 110, 0.366), rgba(0, 255, 0, 0) 100.71%);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  .landing-page .title-mentor {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 20px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .landing-page .title-mentor-2 {
+    position: relative;
+    width: 458px;
+    margin-top: -1px;
+    font-family: "Inria Serif-BoldItalic", Helvetica;
+    font-weight: 700;
+    font-style: italic;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .landing-page .data-mentor {
+    display: flex;
+padding: 10px 20px;
+justify-content: center;
+align-items: center;
+align-content: center;
+gap: 30px 100px;
+align-self: stretch;
+flex-wrap: wrap;
+  }
+  
+  .landing-page .mentor {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .landing-page .foto-profil-mentor {
+    display: flex;
+padding: 10px;
+align-items: flex-start;
+gap: 10px;
+  }
+  
+  .landing-page .img {
+    width: 228.768px;
+height: 228.768px;
+  }
+  
+  .landing-page .deskripsi-mentor {
+    display: flex;
+width: 242px;
+height: 271px;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 30px;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(0deg, rgb(255, 255, 255), rgba(0, 255, 0, 0) 20.71%),
+            linear-gradient(180deg, rgba(21, 190, 165, 0.366), rgba(0, 255, 0, 0) 100.71%);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  .landing-page .nama-lengkap-jabatan {
+    position: relative;
+    width: fit-content;
+    font-family: "Inter-SemiBold Italic", Helvetica;
+    font-weight: 600;
+    font-style: italic;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .landing-page .alasan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    align-content: center;
+    gap: 10px 186px;
+    align-self: stretch;
+    flex-wrap: wrap;
+background-color: rgba(185, 217, 184, 0.4);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  .landing-page .title-alasan {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inria Serif-BoldItalic", Helvetica;
+    font-weight: 700;
+    font-style: italic;
+    color: #000000;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .landing-page .alasan-2 {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 186px 186px;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+  }
+  
+  .landing-page .alasan-3 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #c5fcc4;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .landing-page .gambar-alasan {
+    width: 215px;
+    height: 211px;
+    position: relative;
+    object-fit: cover;
+  }
+  
+  .landing-page .teks-alasan {
+    width: 326px;
+    height: 61px;
+    font-family: "Inter-Italic", Helvetica;
+    font-style: italic;
+    font-size: 16px;
+    position: relative;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .landing-page .alasan-4 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #c5fdc4;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .landing-page .gambar-alasan-2 {
+    width: 185px;
+    height: 190px;
+    position: relative;
+    object-fit: cover;
+  }
+  
+  .landing-page .gambar-alasan-3 {
+    width: 196px;
+    height: 190px;
+    position: relative;
+    object-fit: cover;
+  }
+  
+  .landing-page .testimoni {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 53px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: rgba(197, 253, 196, 0.4);
+  }
+  
+  .landing-page .title-testimoni {
+    position: relative;
+    width: 440.63px;
+    margin-top: -1px;
+    font-family: "Inria Serif-BoldItalic", Helvetica;
+    font-weight: 700;
+    font-style: italic;
+    color: #000000;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .landing-page .isi-testimoni {
+    display: flex;
+width: 90%;
+padding: 10px 0px;
+flex-direction: column;
+align-items: center;
+gap: 53px;
+  }
+  
+  .landing-page .testimoni-2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 61px 61px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    
+  }
+  
+  .landing-page .foto-profil {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 20px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .landing-page .foto-profil-2 {
+    position: relative;
+    width: 155px;
+    height: 153px;
+    object-fit: cover;
+  }
+  
+  .landing-page .deskripsi-testimoni {
+    flex-wrap: wrap;
+    height: 175px;
+    gap: 10px 10px;
+    padding: 10px 20px;
+    flex: 1;
+    flex-grow: 1;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .landing-page .text-wrapper-7 {
+    position: relative;
+    flex: 1;
+    font-family: "Inter-BoldItalic", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .landing-page .masukkan {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 175px 10px -10px;
+    position: relative;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .landing-page .masukkan-kiri {
+    width: 435px;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    height: 131px;
+    position: relative;
+  }
+  
+  .landing-page .deskripsi-imenka {
+    position: relative;
+    width: 287.79px;
+    margin-top: -1px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .landing-page .office {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-bottom: -20px;
+  }
+  
+  .landing-page .text-wrapper-8 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .landing-page .masukkan-kanan {
+    width: 495px;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 19px;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    height: 131px;
+    position: relative;
+  }
+  
+  .landing-page .email {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    flex: 0 0 auto;
+    border: none;
+    background: none;
+    margin-top: -1px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .landing-page .footer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 175px 10px -10px;
+    position: relative;
+}
+  
+  .landing-page .footer-kiri {
+    align-items: flex-start;
+    justify-content: center;
+    gap: 41px;
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .landing-page .logo {
+    display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+  
+  .landing-page .LOGO-2 {
+    position: relative;
+    width: 187px;
+    height: 58px;
+    object-fit: cover;
+  }
+  
+  .landing-page .title-footer {
+    position: relative;
+  width: 240px;
+  margin-top: -1px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+  
+  .landing-page .footer-tengah {
+    align-items: flex-start;
+  gap: 29px;
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 0 auto;
+}
+  
+  .landing-page .menu {
+    display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0px;
+  position: relative;
+  flex: 0 0 auto;
+}
+  
+  .landing-page .isi-menu {
+    display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+  
+  .landing-page .home-footer {
+    position: relative;
+  width: 48.17px;
+  height: 25px;
+  margin-top: -1px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+  
+  .landing-page .tentang-kami-footer {
+    position: relative;
+  width: 112.39px;
+  height: 25px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+  
+  .landing-page .artikel-footer {
+    position: relative;
+  width: 56.2px;
+  height: 25px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+  
+  .landing-page .informasi-loker-2 {
+    position: relative;
+  width: 122.43px;
+  height: 25px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+  
+  .landing-page .footer-kanan {
+    align-items: flex-end;
+  justify-content: center;
+  gap: 32px;
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 0 auto;
+}
+  
+  .landing-page .sosmed {
+    display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  position: relative;
+  flex: 0 0 auto;
+}
+  
+  .landing-page .text-wrapper-9 {
+    position: relative;
+  width: 83px;
+  height: 22px;
+  margin-top: -1px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+  
+  .landing-page .text-wrapper-10 {
+    position: relative;
+  width: 60px;
+  height: 22px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+  
+  .landing-page .text-wrapper-11 {
+    position: relative;
+  width: 83px;
+  height: 22px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}

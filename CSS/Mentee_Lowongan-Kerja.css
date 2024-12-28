@@ -1,0 +1,627 @@
+.LOWONGAN-KERJA{
+    display: flex;
+    width: 100%;
+    padding-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.LOWONGAN-KERJA .lowongan-res{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+    flex-shrink: 0;
+}
+
+.lowongan-res .header{
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(0deg, rgb(255, 255, 255), rgba(0, 255, 0, 0) 20.71%),
+    linear-gradient(180deg, rgba(0, 255, 255, 0.366), rgba(0, 255,0,0)100.71%);
+    position: sticky;
+    top: 0;
+    transition: 0.4s;
+}
+
+.header.scrolled{
+    background-color: #39B9A5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.lowongan-res .header-kiri{
+    display: flex;
+    width: 231px;
+    padding: 10px 50px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.lowongan-res .LOGO{
+    width: 187px;
+    height: 58px;
+    flex-shrink: 0;
+    transition: 0.4s;
+}
+
+.LOGO:hover{
+    transform: scale(1.05);
+  }
+
+.lowongan-res .navbar{
+    display: flex;
+    padding: 10px 30px;
+    align-items: center;
+    align-content: center;
+    gap: 9px 30px;
+    flex-wrap: wrap;
+}
+
+.lowongan-res .gambar-setelah-navbar {
+    width: 103px;
+    height: 43px;
+    display: none;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.gambar-setelah-navbar.hover{
+    transform: scale(1.2);
+}
+
+.lowongan-res .dropdown-content{
+    display: none;
+    position: absolute;
+    padding: 10px 10px;
+    gap: 50px 50px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255,0,0,0) 100.71%),
+    linear-gradient(0deg, rgb(255, 255, 255), rgba(0, 255, 0, 0) 100.71%),
+    linear-gradient(180deg, rgba(0, 255, 255, 0.366), rgba(0, 255,0,0)100.71%);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.dropdown-content.open{
+    display: block;
+    transition: 0.4s;
+}
+
+@media screen and (max-width: 1000px) {
+    .lowongan-res .navbar {
+        display: none; /* Hide the list of links */
+    }
+
+    .lowongan-res .LOGO {
+        display: block; /* Show the logo */
+    }
+    .lowongan-res .gambar-setelah-navbar {
+        display: block; /* Show the image after hiding the navbar */
+    }
+}
+
+.lowongan-res .text-wrapper{
+    color: #2F4858;
+    font-family: Inknut Antiqua;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: 0.4s;
+}
+
+.text-wrapper:hover{
+    letter-spacing: 0.05em;
+    color: #17232b;
+    font-weight: 800;
+  }
+
+.lowongan-res .informasi-loker{
+    color: #2F4858;
+    font-family: Inknut Antiqua;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.05em;
+}
+
+.lowongan-res .header-kanan{
+    display: flex;
+    padding: 10px 50px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+}
+
+.lowongan-res .search-button{
+    width: 43px;
+    height: 43px;
+    transition: 0.4s;
+}
+
+.search-button:hover{
+    transform: scale(1.2);
+}
+
+.lowongan-res .profil{
+    width: 60px;
+    height: 52px;
+    transition: 0.4s;
+}
+
+.profil:hover{
+    transform: scale(1.05);
+  }
+
+.lowongan-res .headline{
+    display: flex;
+    height: 236px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 33px;
+    align-self: stretch;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255,0,0,0) 70.71%),
+                linear-gradient(0deg, rgb(255, 255, 255), rgba(0, 255, 0, 0) 20.71%),
+                linear-gradient(180deg, rgba(0, 255, 255, 0.366), rgba(0, 255,0,0)100.71%);
+}
+
+.lowongan-res .title-headline{
+    display: flex;
+    min-width: 280px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.lowongan-res .div{
+    color: #000;
+    text-align: center;
+    font-family: Inria Serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.lowongan-res .kata-headline{
+    display: flex;
+    min-width: 280px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.lowongan-res .p{
+    min-width: 190px;
+    flex: 1 0 0;
+    color: #000;
+    text-align: center;
+    font-family: Inria Serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.lowongan-res .tengah{
+    display: flex;
+    padding: 0px 1px;
+    align-items: flex-start;
+    gap: 2px;
+    align-self: stretch;
+}
+
+.lowongan-res .daftar-rekomendasi-mentor{
+    display: flex;
+    width: 331px;
+    padding: 18px 13px;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255,0,0,0) 70.71%),
+                linear-gradient(0deg, rgb(255, 255, 255), rgba(0, 255, 0, 0) 20.71%),
+                linear-gradient(180deg, rgba(86, 219, 161, 0.366), rgba(0, 255,0,0)100.71%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.lowongan-res .text-wrapper-2{
+    height: 21.789px;
+    min-width: 117px;
+    align-self: stretch;
+    color: #000;
+    text-align: center;
+    font-family: Inria Serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lowongan-res .mentor{
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 42px;
+    background: rgba(255, 255, 255, 0.10);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.lowongan-res .img{
+    width: 104px;
+    height: 90px;
+}
+
+.lowongan-res .text-wrapper-3{
+    height: 40px;
+    flex: 1 0 0;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.lowongan-res .selengkapnya{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255,0,0,0) 70.71%),
+                linear-gradient(0deg, rgb(255, 255, 255), rgba(0, 255, 0, 0) 20.71%),
+                linear-gradient(180deg, rgba(86, 219, 161, 0.366), rgba(0, 255,0,0)100.71%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: 0.4s;
+}
+
+.selengkapnya:hover{
+    background-color: rgba(86, 219, 161);
+}
+
+.lowongan-res .text-wrapper-6{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lowongan-res .daftar-perusahaan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 54px;
+    flex: 1 0 0;
+    align-self: stretch;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255,0,0,0) 70.71%),
+                linear-gradient(0deg, rgb(255, 255, 255), rgba(0, 255, 0, 0) 20.71%),
+                linear-gradient(180deg, rgba(86, 219, 161, 0.366), rgba(0, 255,0,0)100.71%);
+}
+
+.lowongan-res .div-wrapper{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.lowongan-res .text-wrapper-7{
+    color: #000;
+    font-family: Inria Serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.lowongan-res .isi-daftar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 18px 40px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.lowongan-res .perusahaan{
+    display: flex;
+    padding: 7px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(0deg, rgb(255, 255, 255), rgba(0, 255, 0, 0) 20.71%),
+    linear-gradient(180deg, rgba(132, 234, 130, 0.366), rgba(0, 255,0,0)100.71%);
+}
+
+.lowongan-res .img-2{
+    width: 79px;
+    height: 63px;
+}
+
+.lowongan-res .text-wrapper-8{
+    width: 140px;
+    height: 24px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.lowongan-res .text-wrapper-9{
+    color: #2E351A;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.lowongan-res .deskripsi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.lowongan-res .text-wrapper-10{
+    width: 138px;
+    color: #000;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.lowongan-res .lokasi{
+    display: flex;
+    width: 106px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lowongan-res .gaji{
+    display: flex;
+    width: 144px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lowongan-res .lokasi-gaji{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.lowongan-res .text-wrapper-11{
+    width: 92px;
+    height: 13px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.lowongan-res .text-wrapper-12{
+    width: 126px;
+    height: 13px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.lowongan-res .vector{
+    width: 8px;
+    height: 11px;
+    flex-shrink: 0;
+}
+
+.lowongan-res .vector-2{
+    width: 15px;
+    height: 10px;
+    flex-shrink: 0;
+}
+
+.lowongan-res .butt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+
+.lowongan-res .div-wrapper-2{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: #84EA82;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: 0.4s;
+}
+
+.div-wrapper-2:hover{
+    background: #687768;
+}
+
+.lowongan-res .text-wrapper-13{
+    color: #000;
+    font-family: Inria Serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: 0.4s;
+}
+
+.text-wrapper-13:hover{
+    color: #84EA82;
+}
+
+.lowongan-res .footer{
+    display: flex;
+    padding: 10px 100px;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    background: #16BFA6;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.lowongan-res .footer-kiri{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.lowongan-res .logo{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    transition: 0.4s;
+}
+
+.lowongan-res .div-wrapper0{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.lowongan-res .title-footer{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 240px;
+}
+
+.lowongan-res .footer-tengah{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 29px;
+}
+
+.lowongan-res .menu{
+    display: flex;
+    padding: 10px 0px;
+    align-items: center;
+    gap: 10px;
+}
+
+.lowongan-res .text-wrapper-55{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lowongan-res .isi-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.lowongan-res .text-wrapper-22{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: 0.4s;
+}
+
+.text-wrapper-22:hover{
+    color: #ffffff;
+}
+
+.lowongan-res .footer-kanan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.lowongan-res .follow{
+    display: flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.lowongan-res .text-wrapper-77{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lowongan-res .sosmed{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.lowongan-res .text-wrapper-66{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

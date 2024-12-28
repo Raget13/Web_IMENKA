@@ -1,0 +1,153 @@
+.sign-up-mentor {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.sign-up-mentor .sign-up-mentor-res {
+  flex-direction: column;
+  width: 100%;
+  height: 806px;
+  gap: 56px;
+  padding: 28px 0px;
+  background-image: url(Assets/Gambar\ Sign.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.sign-up-mentor .sign-up-mentor-atas {
+  display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+gap: 20px 777px;
+align-self: stretch;
+flex-wrap: wrap;
+}
+
+.sign-up-mentor .logo {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-up-mentor .LOGO {
+  position: relative;
+  width: 320px;
+  height: 88px;
+  object-fit: cover;
+  transition: 0.4s;
+}
+
+.LOGO:hover{
+  transform: scale(1.05);
+}
+.sign-up-mentor .mentor {
+  display: flex;
+  width: 235px;
+  height: 98px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  border-radius: 27px;
+}
+
+.sign-up-mentor .text-wrapper {
+  color: #56DBA1;
+font-family: Inter;
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.sign-up-mentor .isi-sign {
+  display: flex;
+flex-direction: column;
+align-items: center;
+gap: 16px;
+border-radius: 23px;
+background: rgba(111, 107, 107, 0.526);
+padding: 10px 0px;
+}
+
+.sign-up-mentor .title-create {
+  color: #ffffff;
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.sign-up-mentor .isi-regis {
+  display: flex;
+width: 416px;
+flex-direction: column;
+align-items: center;
+gap: 33px;
+}
+
+input {
+  display: flex;
+  width: 359px;
+  height: 35px;
+  padding: 10px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.60);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  transition: 0.4s;
+}
+
+.sign-up-mentor .div {
+  flex: 1 0 0;
+  color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+transition: 0.4s;
+}
+
+.sign-up-mentor .daftar-butt {
+  display: flex;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 10px;
+background: #56DBA1;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+transition: 0.4s;
+}
+
+.daftar-butt:hover{
+  background: #95e6c3;
+}
+
+.sign-up-mentor .text-wrapper-2 {
+  color: #2F4858;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.isi-regis div div {
+  color: white;
+}

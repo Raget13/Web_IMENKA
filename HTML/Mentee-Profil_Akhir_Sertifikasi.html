@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Mentee-Profil_Akhir_Sertifikasi.css" />
+    </head>
+    <body>
+        <div class="profil-mentor">
+            <div class="profil-mentor-akhir">
+                <header class="header">
+                    <div class="header-kiri">
+                        <a href="Mentee_Beranda.html" style="text-decoration: none;">
+                            <img class="LOGO" src="Assets/LOGO.png" /></div>
+                        </a>
+                    <div class="navbar">
+                        <a href="Mentee_Beranda.html" style="text-decoration: none;">
+                            <div class="text-wrapper">Home</div>
+                        </a>
+                        <a href="Mentee_Tentang_Imenka.html" style="text-decoration: none;">
+                            <div class="text-wrapper">Tentang Imenka</div>
+                        </a>
+                        <a href="Mentee_Artikel.html" style="text-decoration: none;">
+                            <div class="text-wrapper">Artikel</div>
+                        </a>
+                        <a href="Mentee_Lowongan-Kerja.html" style="text-decoration: none;">
+                            <div class="text-wrapper">Lowongan Kerja</div>
+                        </a>
+                        <a href="Mentee_Panduan-Karier.html" style="text-decoration: none;">
+                            <div class="text-wrapper">Panduan Karier</div>
+                        </a>
+                        <a href="Mentee_Tes-Minat.html" style="text-decoration: none;">
+                            <div class="text-wrapper">Tes Minat</div>
+                        </a>
+                    </div>
+                    <div class="gambar-setelah-navbar" id="dropdownTrigger">
+                        <img class="search-button" src="Assets/Navbar.png" />
+                        <div class="dropdown-content" id="myDropdown">
+                            <a href="Mentee_Beranda.html" style="text-decoration: none;">
+                                <div class="text-wrapper">Home</div>
+                            </a>
+                            <a href="Mentee_Tentang_Imenka.html" style="text-decoration: none;">
+                                <div class="text-wrapper">Tentang Imenka</div>
+                            </a>
+                            <a href="Mentee_Artikel.html" style="text-decoration: none;">
+                                <div class="text-wrapper">Artikel</div>
+                            </a>
+                            <a href="Mentee_Lowongan-Kerja.html" style="text-decoration: none;">
+                                <div class="text-wrapper">Lowongan Kerja</div>
+                            </a>
+                            <a href="Mentee_Panduan-Karier.html" style="text-decoration: none;">
+                                <div class="text-wrapper">Panduan Karier</div>
+                            </a>
+                            <a href="Mentee_Tes-Minat.html" style="text-decoration: none;">
+                                <div class="text-wrapper">Tes Minat</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header-kanan">
+                        <img class="search-button" src="Assets/Search Button.png" /> 
+                        <a href="Mentee-Profil.html" style="text-decoration: none;">
+                            <img class="profil" src="Assets/Profil.png" />
+                        </a>
+                    </div>
+                </header>
+                <div class="ucapan-terima-kasih">
+                    <p class="TERIMA-KASIH-SUDAH">
+                        <span class="text-wrapper10">TERIMA KASIH SUDAH VERIFIKASI!<br /></span>
+                        <span class="span"
+                        ><br />Terima kasih dengan sebesar-besarnya atas dedikasi dan kerja keras Anda dalam melakukan verifikasi
+                        bekas ini dengan lengkap. Kontribusi Anda sangat berarti dan kami sangat menghargainya. Dengan kerja sama
+                        Anda, kami dapat memastikan segala sesuatunya berjalan dengan baik. Terima kasih sekali lagi!</span
+                        >
+                    </p>
+                </div>
+                <a href="Mentee_Beranda.html"style="text-decoration:none">
+                    <div class="log-out"><div class="text-wrapper-9">Kembali Ke Beranda</div></div>
+                </a>
+            </div>
+        </div>
+        <script>
+            document.addEventListener('scroll', ()=>{
+                const header = document.querySelector('header');
+                if (window.scrollY > 0){
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled')
+                }
+            })
+        </script>
+        <script>
+           const toggleBtn = document.querySelector ('.gambar-setelah-navbar')
+           const icon = document.querySelector ('.search-button')
+           const menu = document.querySelector ('.dropdown-content')
+        
+            toggleBtn.onclick = function(){
+                menu.classList.toggle('open')
+    
+                icon.src = menu.classList.contains('open') ? "Assets/silang.png" : "Assets/Navbar.png";
+            }
+        </script>
+    </body>
+</html>

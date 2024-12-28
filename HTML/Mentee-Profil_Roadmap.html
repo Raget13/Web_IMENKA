@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="globals.css" />
+        <link rel="stylesheet" href="Mentee-Profil_Roadmap.css" />
+    </head>
+    <body>
+        <div class="profil-mentor">
+            <div class="profil-mentor-res">
+                <header class="header">
+                    <div class="header-kiri">
+                        <a href="Mentee_Beranda.html" style="text-decoration: none;">
+                            <img class="LOGO" src="Assets/LOGO.png" /></div>
+                        </a>
+                    <div class="navbar">
+                        <a href="Mentee_Beranda.html" style="text-decoration: none;">
+                            <div class="text-wrapper">Home</div>
+                        </a>
+                        <a href="Mentee_Tentang_Imenka.html" style="text-decoration: none;">
+                            <div class="text-wrapper">Tentang Imenka</div>
+                        </a>
+                        <a href="Mentee_Artikel.html" style="text-decoration: none;">
+                            <div class="text-wrapper">Artikel</div>
+                        </a>
+                        <a href="Mentee_Lowongan-Kerja.html" style="text-decoration: none;">
+                            <div class="text-wrapper">Lowongan Kerja</div>
+                        </a>
+                        <a href="Mentee_Panduan-Karier.html" style="text-decoration: none;">
+                            <div class="text-wrapper">Panduan Karier</div>
+                        </a>
+                        <a href="Mentee_Tes-Minat.html" style="text-decoration: none;">
+                            <div class="text-wrapper">Tes Minat</div>
+                        </a>
+                    </div>
+                    <div class="gambar-setelah-navbar" id="dropdownTrigger">
+                        <img class="search-button" src="Assets/Navbar.png" />
+                        <div class="dropdown-content" id="myDropdown">
+                            <a href="Mentee_Beranda.html" style="text-decoration: none;">
+                                <div class="text-wrapper">Home</div>
+                            </a>
+                            <a href="Mentee_Tentang_Imenka.html" style="text-decoration: none;">
+                                <div class="text-wrapper">Tentang Imenka</div>
+                            </a>
+                            <a href="Mentee_Artikel.html" style="text-decoration: none;">
+                                <div class="text-wrapper">Artikel</div>
+                            </a>
+                            <a href="Mentee_Lowongan-Kerja.html" style="text-decoration: none;">
+                                <div class="text-wrapper">Lowongan Kerja</div>
+                            </a>
+                            <a href="Mentee_Panduan-Karier.html" style="text-decoration: none;">
+                                <div class="text-wrapper">Panduan Karier</div>
+                            </a>
+                            <a href="Mentee_Tes-Minat.html" style="text-decoration: none;">
+                                <div class="text-wrapper">Tes Minat</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header-kanan">
+                        <img class="search-button" src="Assets/Search Button.png" /> 
+                        <a href="Mentee-Profil.html" style="text-decoration: none;">
+                            <img class="profil" src="Assets/Profil.png" />
+                        </a>
+                    </div>
+                </header>
+                <div class="data-diri-atas">
+                    <div class="text-wrapper-3">Data Diri</div>
+                    <div class="text-wrapper-4">Mentee</div>
+                </div>
+                <div class="data-diri">
+                    <img class="foto-profil-mentor" src="Assets/Foto Profil Mentor.png" />
+                    <div class="profil-data-diri">
+                        <div class="profil-diri"><div class="text-wrapper-5">Profil Diri</div></div>
+                        <div class="edit-profil-diri"><div class="text-wrapper-5">Edit</div></div>
+                    </div>
+                </div>
+                <div class="jenis-data-diri">
+                    <a href="Mentee-Profil_Sertifikasi.html"style="text-decoration:none">
+                        <div class="isi-data1">
+                            <img class="dalam1" src="Assets/sert.png" />
+                            <div class="text-wrapper-7">Sertifikasi</div>
+                        </div>
+                    </a>
+                    <a href="Mentee-Profil_Roadmap.html"style="text-decoration:none">
+                        <div class="isi-data2">
+                            <img class="dalam2" src="Assets/spes.png" />
+                            <div class="text-wrapper-7">Roadmap<br />Karier</div>
+                        </div>
+                    </a>
+                    <a href="Mentee-Profil_Tes.html"style="text-decoration:none">
+                        <div class="isi-data3">
+                            <img class="dalam3" src="Assets/riwa.png" />
+                            <div class="text-wrapper-7">Tes<br />Minat</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="deskripsi"><div class="text-wrapper-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div></div>
+                <div class="profil-bawah">
+                    <a href="Mentor-Profil_Spesialis.html"style="text-decoration:none">
+                        <div class="simpan-data"><div class="text-wrapper-9">Simpan</div></div>
+                    </a>
+                    <a href="Mentor-Beranda.html"style="text-decoration:none">
+                        <div class="log-out"><div class="text-wrapper-9">Kembali Ke Beranda</div></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <script>
+            document.addEventListener('scroll', ()=>{
+                const header = document.querySelector('header');
+                if (window.scrollY > 0){
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled')
+                }
+            })
+        </script>
+        <script>
+           const toggleBtn = document.querySelector ('.gambar-setelah-navbar')
+           const icon = document.querySelector ('.search-button')
+           const menu = document.querySelector ('.dropdown-content')
+        
+            toggleBtn.onclick = function(){
+                menu.classList.toggle('open')
+    
+                icon.src = menu.classList.contains('open') ? "Assets/silang.png" : "Assets/Navbar.png";
+            }
+        </script>
+    </body>
+</html>

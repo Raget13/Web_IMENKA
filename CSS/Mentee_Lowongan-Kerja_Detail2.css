@@ -1,0 +1,724 @@
+.detail{
+    display: flex;
+    width: 100%;
+    padding-bottom: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail .detail-res{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+}
+
+.detail-res .header{
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(0deg, rgb(255, 255, 255), rgba(0, 255, 0, 0) 20.71%),
+    linear-gradient(180deg, rgba(87, 219, 162, 0.366), rgba(0, 255,0,0)100.71%);
+    position: sticky;
+    top: 0;
+    transition: 0.4s;
+}
+
+.header.scrolled{
+    background-color: #39B9A5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.detail-res .header-kiri{
+    display: flex;
+    width: 231px;
+    padding: 10px 50px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.detail-res .LOGO{
+    width: 187px;
+    height: 58px;
+    flex-shrink: 0;
+    transition: 0.4s;
+}
+
+.LOGO:hover{
+    transform: scale(1.05);
+  }
+
+  .detail-res .navbar{
+    display: flex;
+    padding: 10px 30px;
+    align-items: center;
+    align-content: center;
+    gap: 9px 30px;
+    flex-wrap: wrap;
+}
+
+.detail-res .gambar-setelah-navbar {
+    width: 103px;
+    height: 43px;
+    display: none;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.gambar-setelah-navbar.hover{
+    transform: scale(1.2);
+}
+
+.detail-res .dropdown-content{
+    display: none;
+    position: absolute;
+    padding: 10px 10px;
+    gap: 50px 50px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255,0,0,0) 100.71%),
+    linear-gradient(0deg, rgb(255, 255, 255), rgba(0, 255, 0, 0) 100.71%),
+    linear-gradient(180deg, rgba(0, 255, 255, 0.366), rgba(0, 255,0,0)100.71%);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.dropdown-content.open{
+    display: block;
+    transition: 0.4s;
+}
+
+@media screen and (max-width: 1000px) {
+    .detail-res .navbar {
+        display: none; /* Hide the list of links */
+    }
+
+    .detail-res .LOGO {
+        display: block; /* Show the logo */
+    }
+    .detail-res .gambar-setelah-navbar {
+        display: block; /* Show the image after hiding the navbar */
+    }
+}
+
+
+.detail-res .text-wrapper{
+    color: #2F4858;
+    font-family: Inknut Antiqua;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: 0.4s;
+}
+
+.text-wrapper:hover{
+    letter-spacing: 0.05em;
+    color: #17232b;
+    font-weight: 800;
+  }
+
+.detail-res .informasi-loker{
+    color: #2F4858;
+    font-family: Inknut Antiqua;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.05em;
+}
+
+.detail-res .header-kanan{
+    display: flex;
+    padding: 10px 50px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+}
+
+.detail-res .search-button{
+    width: 43px;
+    height: 43px;
+    transition: 0.4s;
+}
+
+.search-button:hover{
+    transform: scale(1.2);
+}
+
+.detail-res .profil{
+    width: 60px;
+    height: 52px;
+    transition: 0.4s;
+}
+
+.profil:hover{
+    transform: scale(1.05);
+  }
+
+  .detail-res .headline{
+    display: flex;
+    height: 236px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 33px;
+    align-self: stretch;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255,0,0,0) 70.71%),
+                linear-gradient(0deg, rgb(255, 255, 255), rgba(0, 255, 0, 0) 20.71%),
+                linear-gradient(180deg, rgba(0, 255, 255, 0.366), rgba(0, 255,0,0)100.71%);
+}
+
+.detail-res .title-headline{
+    display: flex;
+    min-width: 280px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.detail-res .div{
+    color: #000;
+    text-align: center;
+    font-family: Inria Serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.detail-res .kata-headline{
+    display: flex;
+    min-width: 280px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.detail-res .p{
+    min-width: 190px;
+    flex: 1 0 0;
+    color: #000;
+    text-align: center;
+    font-family: Inria Serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.detail-res .logo-perusahaan{
+    width: 330px;
+    height: 225px;
+    border-radius: 13px;
+}
+
+.detail-res .text-wrapper-2{
+    color: #000;
+    text-align: center;
+    font-family: Inria Serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.detail-res .tengah{
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.detail-res .daftar-rekomendasi{
+    display: flex;
+    width: 238px;
+    padding: 18px 13px;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    border-radius: 10px;
+    background: #56DBA1;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.detail-res .text-wrapper-3{
+    height: 21.789px;
+    min-width: 117px;
+    align-self: stretch;
+    color: #000;
+    text-align: center;
+    font-family: Inria Serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.detail-res .mentor{
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 42px;
+    background: rgba(255, 255, 255, 0.10);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: 0.4s;
+}
+
+.mentor:hover{
+    transform: scale(1.2);
+}
+
+.detail-res .img{
+    width: 74px;
+    height: 74px;
+    border-radius: 90px;
+}
+
+.detail-res .text-wrapper-4{
+    flex: 1 0 0;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.detail-res .selengkapnya{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, #FFF 0%, rgba(86, 219, 161, 0.00) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: 0.4s;
+}
+
+.selengkapnya:hover{
+    background: rgb(155, 214, 189);
+}
+
+.detail-res .text-wrapper-5{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.detail-res .isi{
+    display: flex;
+    padding: 20px 77px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+    flex: 1 0 0;
+    background: #56DBA1;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.detail-res .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 23px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.detail-res .informasi-perusahaan{
+    display: flex;
+    min-width: 213px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    border-radius: 10px;
+    background: #00A09F;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: 0.4s;
+}
+
+.informasi-perusahaan:hover{
+    background: #293f3f;
+}
+
+.detail-res .profil-perusahaan{
+    display: flex;
+    padding: 20px 77px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+    flex: 1 0 0;
+    background: #56DBA1;
+}
+
+.detail-res .text-wrapper-6{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    flex: 1 0 0;
+    transition: 0.4s;
+}
+
+.text-wrapper-6:hover{
+    color: #ffffff;
+}
+
+.detail-res .text-wrapper-222{
+    color: #000;
+    text-align: center;
+    font-family: Inria Serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.detail-res .salam-pacifik{
+    width: 443px;
+    height: 260px;
+    flex-shrink: 0;
+}
+
+.detail-res .div-2{
+    display: flex;
+    min-width: 356px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 27px;
+    align-self: stretch;
+}
+
+.detail-res .div-3{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    align-self: stretch;
+}
+
+.detail-res .img-3{
+    width: 48px;
+    height: 48px;
+}
+
+.detail-res .text-wrapper-33{
+    flex: 1 0 0;
+    color: #000;
+    font-family: Inria Serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.detail-res .daftar-loker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 47px;
+    align-self: stretch;
+    background: linear-gradient(180deg, #56DBA1 0%, #56DBA1 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.detail-res .daftar-hori{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.detail-res .daftar-loker-yang{
+    display: flex;
+    padding: 0px 38px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 79px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.detail-res .perusahaan{
+    display: flex;
+    padding: 7px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #FFF 0%, rgba(132, 234, 130, 0.09) 100%);
+}
+
+.detail-res .text-wrapper-11{
+    color: #000;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+.detail-res .text-wrapper-12{
+    color: #2E351A;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.detail-res .deskripsi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.detail-res .text-wrapper-13{
+    width: 138px;
+    color: #000;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.detail-res .lokasi-gaji{
+    display: flex;
+    padding: 0px 6px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.detail-res .lokasi{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    align-self: stretch;
+}
+
+.detail-res .vector{
+    width: 8px;
+    height: 11px;
+    flex-shrink: 0;
+}
+
+.detail-res .text-wrapper-14{
+    flex: 1 0 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.detail-res .gaji{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    align-self: stretch;
+}
+.detail-res .vector-2{
+    width: 15px;
+    height: 10px;
+    flex-shrink: 0;
+}
+
+.detail-res .butt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+
+.detail-res .div-wrapper{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: #84EA82;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.div-wrapper:hover{
+    background: #687768;
+}
+
+.detail-res .text-wrapper-16{
+    color: #000;
+    font-family: Inria Serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.text-wrapper-16:hover{
+    color: #84EA82;
+}
+
+.detail-res .footer{
+    display: flex;
+    padding: 10px 175px 10px 128px;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    background: #56DBA1;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.detail-res .footer-kiri{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.detail-res .logo{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    transition: 0.4s;
+}
+
+.detail-res .div-wrapper0{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.detail-res .title-footer{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 240px;
+}
+
+.detail-res .footer-tengah{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 29px;
+}
+
+.detail-res .menu2{
+    display: flex;
+    padding: 10px 0px;
+    align-items: center;
+    gap: 10px;
+}
+
+.detail-res .text-wrapper-55{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.detail-res .isi-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.detail-res .text-wrapper-22{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: 0.4s;
+}
+
+.text-wrapper-22:hover{
+    color: #ffffff;
+}
+
+.detail-res .footer-kanan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.detail-res .follow{
+    display: flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail-res .text-wrapper-77{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.detail-res .sosmed{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.detail-res .text-wrapper-66{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

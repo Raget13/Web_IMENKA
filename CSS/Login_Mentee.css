@@ -1,0 +1,242 @@
+.login-mentee {
+    width: 100%;
+    height: 852px;
+    background-color: #ffffff;
+}
+
+.login-mentee .div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 852px;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    background-image: url(Assets/Gambar\ Mentee.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.login-mentee .log-up-mentee-atas {
+    display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+gap: 20px 777px;
+align-self: stretch;
+flex-wrap: wrap;
+}
+
+.login-mentee .logo {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.login-mentee .LOGO {
+    position: relative;
+    width: 320px;
+    height: 88px;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+.LOGO:hover{
+  transform: scale(1.05);
+}
+.login-mentee .mentee {
+    display: flex;
+    width: 235px;
+    height: 98px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    border-radius: 27px;
+}
+
+.login-mentee .text-wrapper {
+    position: relative;
+    width: fit-content;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #56dba1;
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.login-mentee .isi-login {
+    display: flex;
+padding: 12px 0px;
+flex-direction: column;
+align-items: center;
+gap: 16px;
+border-radius: 23px;
+background: rgba(255, 255, 255, 0.10);
+}
+
+.login-mentee .title-create {
+    align-self: stretch;
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.login-mentee .isi-regis {
+    display: flex;
+padding: 10px 25px;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+align-self: stretch;
+}
+
+input {
+    display: flex;
+    width: 359px;
+    height: 35px;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+  .isi-regis div div {
+    color: white;
+  }
+
+.login-mentee .text-wrapper-2 {
+    color: rgba(0, 0, 0, 0.50);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+flex: 1 0 0;
+}
+
+.login-mentee .text-wrapper-3 {
+    color: #FFF;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration-line: underline;
+}
+
+.login-mentee .daftar-butt {
+    display: flex;
+padding: 4px 17px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 6px;
+background: #56DBA1;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.login-mentee .text-wrapper-4 {
+    color: #2F4858;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.login-mentee .text-wrapper-5 {
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.login-mentee .opsi-masuk {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 7px;
+align-self: stretch;
+}
+
+.login-mentee .opsi-masuk-2 {
+    display: flex;
+width: 306px;
+padding: 0px 4px;
+align-items: center;
+}
+
+.login-mentee .img-wrapper {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.login-mentee .img {
+    flex: 1 0 0;
+align-self: stretch;
+}
+
+.login-mentee .text-wrapper-6 {
+    color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.login-mentee .log-in-mentee-bawah {
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 8px;
+align-self: stretch;
+}
+
+.login-mentee .text-wrapper-7 {
+    color: #FFF;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.login-mentee .text-wrapper-8 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    transition: 0.4s;
+}
+
+.text-wrapper-8:hover{
+    color: #56DBA1;
+}
